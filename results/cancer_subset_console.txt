@@ -1,0 +1,35 @@
+Total formulations: 464
+Cancer-relevant (title or bio): 113
+
+Cancer-relevant papers: 11
+  n=  7  Optimization of Lipid Nanoparticles for Intramuscular Administration of mRNA Vaccines
+  n=  2  High-throughput barcoding of nanoparticles identifies cationic, degradable lipid-like mate
+  n=  2  Rational design and modular synthesis of biodegradable ionizable lipids via the Passerini 
+  n= 15  Ionizable Lipid Nanoparticles for In Vivo mRNA Delivery to the Placenta during Pregnancy
+  n= 24  Machine learning-driven optimization of mRNA-lipid nanoparticle vaccine quality with XGBoo
+  n=  9  Role of PEGylated lipid in lipid nanoparticle formulation for in vitro and in vivo deliver
+  n=  3  Taylor Dispersion Analysis to support lipid-nanoparticle formulations for mRNA vaccines
+  n=  5  Throughput-scalable manufacturing of SARS-CoV-2 mRNA lipid nanoparticle vaccines
+  n=  1  Synergistic lipid compositions for albumin receptor mediated delivery of mRNA to the liver
+  n= 44  Delivery of mRNA vaccines with heterocyclic lipids increases anti-tumor efficacy by STING-
+  n=  1  Nonviral delivery of self-amplifying RNA vaccines
+
+--- Complete-case overlap ---
+Total complete cases: 105
+Cancer-relevant complete cases: 58
+
+Category breakdown (cancer-relevant complete cases):
+category_primary
+Potent only             28
+Neither                 22
+Potent + Developable     6
+Developable only         2
+
+Cancer-relevant potent formulations: 34
+Cancer-relevant potent failing physchem: 28
+Cancer-relevant failure rate: 82.4%
+
+Papers contributing cancer-relevant complete cases:
+  n= 11  Ionizable Lipid Nanoparticles for In Vivo mRNA Delivery to the Placenta during Pregnancy
+  n=  4  Role of PEGylated lipid in lipid nanoparticle formulation for in vitro and in vivo deliver
+  n= 43  Delivery of mRNA vaccines with heterocyclic lipids increases anti-tumor efficacy by STING-

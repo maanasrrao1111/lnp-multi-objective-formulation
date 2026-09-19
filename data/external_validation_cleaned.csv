@@ -1,0 +1,46 @@
+paper,doi,source_table,ionizable_lipid,helper_lipid,sterol,peg_lipid,molar_ratio,cargo,size_nm,size_sd,pdi,pdi_sd,ee_pct,ee_sd,zeta_mv,pka,pdi_available,ee_available,full_panel
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,SM-102,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),79.24,0.95,0.109,0.011,93.87,,,6.574,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,MC3,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),63.47,0.43,0.118,0.003,96.37,,,6.214,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ085,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),92.34,0.54,0.084,0.016,97.72,,,7.392,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ086,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),79.72,1.35,0.181,0.008,96.43,,,7.402,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ087,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),76.09,1.06,0.132,0.012,94.34,,,6.56,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ089,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),60.9,0.1,0.111,0.004,95.65,,,6.54,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ090,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),60.21,0.28,0.14,0.02,96.92,,,6.118,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ091,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),50.54,0.17,0.09,0.023,96.08,,,6.226,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ092,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),54.47,0.25,0.12,0.006,94.87,,,6.134,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ093,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),55.59,0.28,0.094,0.005,96.21,,,6.115,True,True,True
+Wang_2024_NatCommun,10.1038/s41467-024-55072-6,Supplementary Table 6/9,LQ094,DSPC,Cholesterol,DMG-PEG2000,50:10:38.5:1.5,mRNA (FLuc),55.52,0.37,0.131,0.005,93.75,,,6.062,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,C8-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),104.0,32.0,0.091,0.019,87.6,9.9,-6.73,7.29,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E4i-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),76.0,32.0,0.177,0.019,91.3,2.8,-3.73,6.58,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E4t-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),67.0,25.1,0.14,0.023,89.5,3.9,-10.3,6.4,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E4s-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),72.7,24.7,0.116,0.007,89.0,2.5,-8.4,6.16,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,C10-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),89.6,44.4,0.256,0.029,89.0,4.7,-0.24,6.3,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E6i-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),81.9,41.5,0.256,0.02,83.6,11.8,-13.7,5.9,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E6t-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),122.0,57.0,0.219,0.031,91.4,2.7,-16.5,5.79,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E6s-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),82.3,44.7,0.269,0.032,91.5,2.9,-22.1,5.84,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,C12-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),106.0,66.0,0.388,0.107,89.4,4.3,-11.5,6.16,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E8i-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),108.0,50.0,0.213,0.036,89.5,3.9,-13.1,6.22,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E8t-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),92.6,39.5,0.182,0.021,89.0,2.5,-28.1,5.83,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E8s-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),88.5,44.5,0.253,0.034,89.0,4.7,5.47,6.19,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,C14-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),92.6,47.4,0.261,0.065,83.6,11.8,-2.21,6.58,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E10i-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),100.0,44.0,0.196,0.066,91.4,2.7,-11.3,6.14,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E10t-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),155.0,75.0,0.232,0.028,91.5,2.9,-14.4,6.34,True,True,True
+Padilla_2025_NatCommun,10.1038/s41467-024-55137-6,Supplementary Table 1,E10s-494,DOPE,Cholesterol,C14-PEG2000,35:16:46.5:2.5,mRNA (FLuc),118.0,60.0,0.258,0.031,89.4,4.3,-18.4,6.3,True,True,True
+Schober_2024_SciRep,10.1038/s41598-024-52685-1,"Table 1 (size, PDI only)",DLin-MC3-DMA,DOPE,Cholesterol,DMG-PEG2K,50:10:38.5:1.5,mRNA (996 bases),121.0,,0.23,,,,,,True,False,False
+Schober_2024_SciRep,10.1038/s41598-024-52685-1,"Table 1 (size, PDI only)",DLin-MC3-DMA,DSPC,Cholesterol,DMG-PEG2K,50:10:38.5:1.5,mRNA (996 bases),128.0,,0.15,,,,,,True,False,False
+Schober_2024_SciRep,10.1038/s41598-024-52685-1,"Table 1 (size, PDI only)",ALC-0315,DSPC,Cholesterol,ALC-0159,46.3:9.4:42.7:1.6,mRNA (996 bases),133.0,,0.17,,,,,,True,False,False
+Schober_2024_SciRep,10.1038/s41598-024-52685-1,"Table 1 (size, PDI only)",DLin-MC3-DMA,DSPC,Cholesterol,DMG-PEG2K,50:10:38.5:1.5,mRNA (996 bases),117.0,,0.21,,,,,,True,False,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Cholesterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),100.0,,,,94.0,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),112.5,34.7,,,92.5,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Stigmastanol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),127.9,39.7,,,89.6,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Campesterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),96.5,22.6,,,97.0,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Fucosterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),117.7,35.4,,,98.0,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Brassicasterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),142.3,45.7,,,81.4,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,Ergosterol,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),155.8,58.1,,,83.1,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,"9,11-Dehydroergosterol",DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),126.9,35.4,,,81.0,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Acetate,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),132.7,34.0,,,95.3,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Glycine,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),96.5,22.6,,,92.2,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Serine,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),144.8,40.8,,,92.0,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Cysteine,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),144.8,43.4,,,87.3,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Arginine,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),104.2,31.6,,,91.5,,,,False,True,False
+Patel_2020_NatCommun,10.1038/s41467-020-14527-2,"Fig. 2a,c,e panel annotations (exact values)",DLin-MC3-DMA,DSPC,β-Sitosterol-Histidine,DMG-PEG2k,50:10:38.5:1.5,mRNA (FLuc),110.7,29.5,,,92.3,,,,False,True,False

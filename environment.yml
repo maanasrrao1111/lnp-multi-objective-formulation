@@ -1,0 +1,17 @@
+name: lnp-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - rdkit
+  - pip
+  - pip:
+      - xgboost
+      - shap

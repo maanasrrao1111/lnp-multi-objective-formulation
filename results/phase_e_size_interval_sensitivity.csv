@@ -1,0 +1,6 @@
+size_lower_nm,size_upper_nm,n_potent,n_potent_and_developable,n_potent_failing_physchem,pct_potent_failing_physchem
+50,150,60,23,37,61.666666666666664
+60,150,60,21,39,65.0
+60,160,60,21,39,65.0
+60,200,60,23,37,61.666666666666664
+50,200,60,25,35,58.333333333333336

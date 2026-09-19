@@ -1,0 +1,56 @@
+Running publication-grouped particle-size interpretation...
+  rows=298, studies=28, permutations=30
+  fold 1/5
+  fold 2/5
+  fold 3/5
+  fold 4/5
+  fold 5/5
+
+Primary grouped interpretation complete and saved.
+PHASE D2 PARTICLE-SIZE INTERPRETATION REPORT
+============================================
+
+Usable formulations: 298
+Studies represented: 28
+Features: 17
+
+Publication-grouped out-of-fold performance:
+  MAE: 33.258 nm
+  RMSE: 41.955 nm
+  R2: 0.155
+  Spearman rho: 0.531
+
+Top held-out grouped permutation features:
+  1. LogP: held-out MAE increase 0.446 nm; positive in 4/5 folds
+  2. PEG/sterol log ratio: held-out MAE increase 0.328 nm; positive in 2/5 folds
+  3. Molecular weight: held-out MAE increase 0.147 nm; positive in 4/5 folds
+  4. Ester bonds: held-out MAE increase 0.111 nm; positive in 5/5 folds
+  5. Ionizable/sterol log ratio: held-out MAE increase 0.047 nm; positive in 4/5 folds
+  6. Unsaturated bonds: held-out MAE increase 0.036 nm; positive in 4/5 folds
+  7. Longest carbon-chain length: held-out MAE increase 0.029 nm; positive in 4/5 folds
+  8. Rings: held-out MAE increase 0.010 nm; positive in 3/5 folds
+  9. Tertiary amines: held-out MAE increase -0.009 nm; positive in 3/5 folds
+  10. H-bond acceptors: held-out MAE increase -0.010 nm; positive in 2/5 folds
+
+Interpretation:
+  Grouped held-out permutation importance is the primary explanation.
+  A feature is more credible when permutation worsens held-out MAE in
+  several folds, not merely when its pooled mean importance is positive.
+
+Caution:
+  Out-of-fold R2 is modest. These are candidate associations with particle
+  size, not universal or causal design rules. Correlated features may share
+  or redistribute importance.
+
+SHAP status: not requested
+
+Saved primary outputs:
+  results/phase_d_particle_size_fold_metrics.csv
+  results/phase_d_particle_size_grouped_permutation_importance.csv
+  results/phase_d_particle_size_oof_predictions.csv
+  figures/phase_d_particle_size_grouped_permutation_importance.png
+  figures/phase_d_particle_size_observed_vs_predicted.png
+
+Running approximate SHAP on a capped sample...
+
+Approximate SHAP completed and saved.

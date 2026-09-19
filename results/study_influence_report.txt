@@ -1,0 +1,33 @@
+STUDY-INFLUENCE ANALYSIS
+========================
+
+Complete formulations: 105
+Studies represented: 14
+
+Pooled analysis:
+  Potent formulations: 60
+  Potent formulations failing physicochemical criteria: 39
+  Failure percentage: 65.0%
+
+Largest contributing study:
+  DOI: https://doi.org/10.1038/s41587-019-0247-3
+  Complete formulations: 43
+  Share of complete dataset: 41.0%
+
+After excluding the largest study:
+  Potent formulations: 38
+  Potent formulations failing physicochemical criteria: 17
+  Failure percentage: 44.7%
+
+Leave-one-study-out failure range:
+  Minimum: 44.7%
+  Maximum: 70.0%
+
+Study-level failure percentages:
+  Unweighted mean: 52.9%
+  Median: 70.0%
+
+Caution:
+Study-level percentages are unstable for publications containing only
+one or two potent formulations. The pooled estimate and leave-one-study-out
+range should therefore be reported together.

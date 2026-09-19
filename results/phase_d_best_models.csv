@@ -1,0 +1,5 @@
+endpoint,baseline_mae,best_nonbaseline_model_id,best_nonbaseline_model_label,best_nonbaseline_mae,best_nonbaseline_r2,best_nonbaseline_spearman_rho,mae_improvement_vs_baseline_pct,predictive_signal_passed,best_model_id,best_model_label
+transfection,0.22292897712081994,ridge_composition,Ridge: composition,0.22443886416178438,-0.04775709496943348,0.06105988829140754,-0.677295101096765,False,baseline_mean,Mean baseline
+particle_size,46.190925876261026,rf_combined,RF: combined,33.25841894537838,0.1551494662176246,0.5307168233253988,27.997938308331396,True,rf_combined,RF: combined
+pdi,0.06225829964775447,ridge_composition,Ridge: composition,0.06228824479352992,-0.1294909809403948,-0.23897646069784437,-0.04809823902174426,False,baseline_mean,Mean baseline
+encapsulation_efficiency,16.701995404674804,rf_combined,RF: combined,14.069824953762692,-0.03188513856438946,0.31686108965172854,15.759616663380116,False,baseline_mean,Mean baseline

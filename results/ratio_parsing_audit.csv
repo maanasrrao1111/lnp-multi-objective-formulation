@@ -1,0 +1,465 @@
+lnp_id,paper_doi,lipid_molar_ratio,ionizable_lipid,helper_lipid,sterol_lipid,peg_lipid,mol_pct_ionizable,mol_pct_helper,mol_pct_sterol,mol_pct_peg,parse_method,parse_confidence
+1,https://doi.org/10.1038/s41467-024-50619-z,60:20:19.5:0.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,60.0,20.0,19.5,0.5,doi_lookup,high
+2,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+3,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+4,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+5,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+6,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+7,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+8,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+9,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+10,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+11,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+12,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+13,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+14,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+15,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+16,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+17,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+18,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+19,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+20,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+21,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+22,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+23,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+24,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+25,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+26,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+27,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+28,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+29,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+30,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+31,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+32,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+33,https://doi.org/10.1038/s41467-024-50619-z,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+51,10.1126/sciadv.abf4398,26.5:1.5:52:20,Custom lipid,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+52,10.1126/sciadv.abf4398,26.5:1.5:52:20,Custom lipid,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+53,10.1126/sciadv.abf4398,26.5:1.5:52:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+54,10.1126/sciadv.abf4398,26.5:1.0:52:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+55,10.1126/sciadv.abf4398,26.5:1.5:51.5:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+56,10.1126/sciadv.abf4398,26.5:3.0:50.5:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+57,10.1126/sciadv.abf4398,26.5:3.0:50.5:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+58,10.1126/sciadv.abf4398,26.5:3.0:50.5:20,246C10,DOPE,cholesterol,C16-Ceramide-PEG2000,,,,,ambiguous_doi,excluded
+63,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+64,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,DOTAP,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+65,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+66,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+67,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+68,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+69,https://doi.org/10.1016/j.omtn.2019.01.013,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+109,10.1021/acs.nanolett.5b02497,50:1.5:38.5:10,C12-200,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+110,10.1021/acs.nanolett.5b02497,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,2.5,46.5,16.0,doi_lookup,high
+113,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+114,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+115,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+116,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+117,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Heptadecan-9-yl 8-((2-hydroxyethyl)(8-(nonyloxy)-8-oxooctyl)amino)octanoate,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+118,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+119,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+120,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,SM-102,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+121,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+122,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,Custom lipid,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+123,https://doi.org/10.1016/j.ymthe.2018.03.010,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,PEG-lipid,50.0,10.0,38.5,1.5,doi_lookup,high
+174,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+175,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+176,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+177,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+178,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+179,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+180,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+181,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+182,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+183,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+184,10.1126/sciadv.abc2315,20:0.75:40:30,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+198,10.1002/adma.201606944,35:16:46.5:2.5,OF-Deg-Lin,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+199,10.1002/adma.201606944,35:16:46.5:2.5,OF-Deg-Lin,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+200,10.1002/adma.201606944,35:16:46.5:2.5,OF-02,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+201,10.1002/adma.201606944,35:16:46.5:2.5,OF-02,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+202,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+203,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+204,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+205,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+206,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+207,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+208,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+209,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+210,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+211,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+212,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+213,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+214,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+215,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+216,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+217,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+218,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+219,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+220,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+221,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+222,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+223,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+224,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+225,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+226,https://doi.org/10.1038/s41467-024-45422-9,25:0.75:19.25:5,DLin-MC3-DMA,DSPC,cholesterol,C14-PEG2000,25.0,5.0,19.25,0.75,doi_lookup,high
+227,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+228,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+229,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+230,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+231,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+232,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+233,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+234,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+235,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+236,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+237,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+238,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+239,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+240,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+241,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+242,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+243,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+244,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+245,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+246,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+247,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+248,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+249,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+250,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+251,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+252,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+253,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+254,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+255,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+256,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+257,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+258,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+259,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+260,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+261,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+262,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+263,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+264,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+265,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+266,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+267,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+268,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+269,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+270,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+271,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+272,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+273,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+274,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+275,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+276,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+277,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+278,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+279,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+280,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+281,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+282,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+283,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+284,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+285,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+286,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+287,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+288,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+289,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+290,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+291,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+292,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+293,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+294,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+295,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+296,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+297,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+298,https://doi.org/10.1038/s41467-024-45422-9,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+433,10.1002/anie.201809056,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+435,10.1002/anie.201809056,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+437,10.1002/anie.201809056,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+440,10.1002/anie.201809056,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+442,10.1002/anie.201809056,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+444,10.1002/anie.201809056,35:16:46.5:2.5,OF-Deg-Lin,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+446,10.1002/anie.201809056,35:16:46.5:2.5,OF-C4-Deg-Lin,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+448,10.1002/anie.201809056,35:16:46.5:2.5,cKK-E12,DOPE,cholesterol,C14-PEG 2000,35.0,16.0,46.5,2.5,doi_lookup,high
+450,10.1016/j.jconrel.2019.10.028,40:2.5:53.5:4,C12-200,DOPE,cholesterol,C14-PEG2000,40.0,4.0,53.5,2.5,doi_lookup,high
+451,10.1016/j.jconrel.2019.10.028,60:0.5:29.5:10,C12-200,DOPE,cholesterol,C14-PEG2000,60.0,10.0,29.5,0.5,doi_lookup,high
+452,10.1016/j.jconrel.2019.10.028,40:3.5:28.5:28,C12-200,DOPE,cholesterol,C14-PEG2000,40.0,28.0,28.5,3.5,doi_lookup,high
+453,10.1016/j.jconrel.2019.10.028,40:2.5:29.5:28,C12-200,DOPE,cholesterol,C14-PEG2000,40.0,28.0,29.5,2.5,doi_lookup,high
+454,10.1016/j.jconrel.2019.10.028,40:3.0:35.0:22,C12-200,DOPE,cholesterol,C14-PEG2000,40.0,22.0,35.0,3.0,doi_lookup,high
+455,10.1016/j.jconrel.2019.10.028,35:3.0:40.0:22,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,22.0,40.0,3.0,doi_lookup,high
+456,10.1016/j.jconrel.2019.10.028,35:3.5:39.5:22,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,22.0,39.5,3.5,doi_lookup,high
+457,10.1016/j.jconrel.2019.10.028,30:3.0:51.0:16,C12-200,DOPE,cholesterol,C14-PEG2000,30.0,16.0,51.0,3.0,doi_lookup,high
+458,10.1016/j.jconrel.2019.10.028,30:2.5:51.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,30.0,16.0,51.5,2.5,doi_lookup,high
+459,10.1016/j.jconrel.2019.10.028,40:1.5:42.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,40.0,16.0,42.5,1.5,doi_lookup,high
+460,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+461,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+462,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+463,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+464,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+465,10.1016/j.jconrel.2019.10.028,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+466,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+467,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+468,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+469,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+470,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+471,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+472,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+473,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+474,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,Custom lipid,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+475,https://doi.org/10.1073/pnas.2409572122,50:1.5:38.5:10,SM-102,DSPC,cholesterol,C14-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+509,https://doi.org/10.34133/bmr.0017,50:10:38.5:1.5,SM-102,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+510,https://doi.org/10.34133/bmr.0017,50:10:38.5:1.5,SM-102,DSPC,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+511,https://doi.org/10.34133/bmr.0017,26.5:20:52:1.5,244-cis,DOPE,cholesterol,C16-Ceramide-PEG2000,26.5,20.0,52.0,1.5,doi_lookup,high
+512,https://doi.org/10.34133/bmr.0017,26.5:20:52:1.5,244-cis,DOPE,cholesterol,DMG-PEG2000,26.5,20.0,52.0,1.5,doi_lookup,high
+513,https://doi.org/10.34133/bmr.0017,26.5:20:52.4:1.1,244-cis,DOPE,cholesterol,DMG-PEG2000,26.5,20.0,52.4,1.1,doi_lookup,high
+563,10.1039/C9NR02004G,50:10:39:1,DLin-KC2-DMA,DSPC,cholesterol,DSPE-PEG2000,50.0,10.0,39.0,1.0,doi_lookup,high
+574,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+575,10.1002/jbm.a.37705,35:2.5:46.5:16,C9-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+576,10.1002/jbm.a.37705,35:2.5:46.5:16,C10-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+577,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+578,10.1002/jbm.a.37705,35:2.5:46.5:16,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+579,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+580,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+581,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+582,10.1002/jbm.a.37705,35:2.5:46.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+607,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+608,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+609,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+610,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+611,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+612,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+613,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+614,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+615,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+616,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+617,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+618,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+619,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+620,10.1126/sciadv.aba1028,35:46.5:16:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+621,10.1126/sciadv.aba1028,35:46.5:16:2.5,DLin-MC3-DMA,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+622,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+623,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+624,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+625,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+626,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+627,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+628,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+629,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+630,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+631,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+632,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+633,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+634,10.1021/jacs.2c12893,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+635,10.1021/jacs.2c12893,35:16:46.5:2.5,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+636,10.1021/jacs.2c12893,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+637,https://doi.org/10.1016/j.jconrel.2021.11.022,35:16:46.5:2.5,C12-200,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+638,https://doi.org/10.1016/j.jconrel.2021.11.022,35:16:46.5:2.5,cKK-E12,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+639,https://doi.org/10.1016/j.jconrel.2021.11.022,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+641,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:41.8:2.5,DOTAP,DOPE,cholesterol,DSG-PEG2000,46.3,9.4,41.8,2.5,doi_lookup,high
+642,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:42.7:1.6,DOTAP,DSPE,cholesterol,DMG,46.3,9.4,42.7,1.6,doi_lookup,high
+643,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DOTAP,DMPC,cholesterol,DPPE-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+644,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.5:1.5,DOTAP,DOPC,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+645,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DOTAP,DSPC,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+646,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DOTMA,DLPE,cholesterol,DMG,50.0,10.0,38.4,1.6,doi_lookup,high
+647,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.5:1.5,DOTMA,DOPE,cholesterol,DPPE-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+648,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DOTMA,DSPE,cholesterol,DPPE-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+649,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.5:1.5,DOTMA,DMPC,cholesterol,DSG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+650,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:42.7:1.6,DOTMA,DOPC,cholesterol,DSG-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+651,https://doi.org/10.1016/j.jpha.2024.100996,50:10:37.5:2.5,DOTMA,DSPC,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,37.5,2.5,doi_lookup,high
+652,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:41.8:2.5,DODAP,DLPE,cholesterol,DPPE-PEG2000,46.3,9.4,41.8,2.5,doi_lookup,high
+653,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:42.7:1.6,DODAP,DOPE,cholesterol,DMG,46.3,9.4,42.7,1.6,doi_lookup,high
+654,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.5:1.5,DODAP,DSPE,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+655,https://doi.org/10.1016/j.jpha.2024.100996,50:10:37.5:2.5,DODAP,DMPC,cholesterol,DMG,50.0,10.0,37.5,2.5,doi_lookup,high
+656,https://doi.org/10.1016/j.jpha.2024.100996,50:10:37.5:2.5,DODAP,DOPC,cholesterol,DMG,50.0,10.0,37.5,2.5,doi_lookup,high
+657,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DODAP,DSPC,cholesterol,DSG-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+658,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DLin-MC3-DMA,DLPE,cholesterol,DSG-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+659,https://doi.org/10.1016/j.jpha.2024.100996,50:10:37.5:2.5,DLin-MC3-DMA,DOPE,cholesterol,C16-Ceramide-PEG2000,50.0,10.0,37.5,2.5,doi_lookup,high
+660,https://doi.org/10.1016/j.jpha.2024.100996,50:10:37.5:2.5,DLin-MC3-DMA,DSPE,cholesterol,DSG-PEG2000,50.0,10.0,37.5,2.5,doi_lookup,high
+661,https://doi.org/10.1016/j.jpha.2024.100996,46.3:9.4:42.7:1.6,DLin-MC3-DMA,DMPC,cholesterol,C16-Ceramide-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+662,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.4:1.6,DLin-MC3-DMA,DOPC,cholesterol,DPPE-PEG2000,50.0,10.0,38.4,1.6,doi_lookup,high
+663,https://doi.org/10.1016/j.jpha.2024.100996,46.3:8.4:42.8:2.5,DLin-MC3-DMA,DSPC,cholesterol,DPPE-PEG2000,46.3,8.4,42.8,2.5,doi_lookup,high
+664,https://doi.org/10.1016/j.jpha.2024.100996,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG,50.0,10.0,38.5,1.5,doi_lookup,high
+665,https://doi.org/10.1038/s41563-020-00886-0,25:1:30:30,9A1P9,MDOA,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+668,https://doi.org/10.1038/s41563-020-00886-0,25:1:30:30,Custom lipid,MDOA,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+669,https://doi.org/10.1038/s41563-020-00886-0,55:0.2:45:30,9A1P9,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+675,https://doi.org/10.1038/s41563-020-00886-0,25:30:30:1,9A1P9,MDOA,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+678,https://doi.org/10.1038/s41563-020-00886-0,55:30:45:0.2,9A1P9,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+679,https://doi.org/10.1038/s41563-020-00886-0,25:30:30:1,Custom lipid,MDOA,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+680,https://doi.org/10.1038/s41563-020-00886-0,25:30:30:1,9A1P9,DODAP,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+686,https://doi.org/10.1038/s41563-020-00886-0,25:30:30:1,Custom lipid,MDOA,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+687,https://doi.org/10.1038/s41563-020-00886-0,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+716,10.1021/acs.jpcb.5b02891,50:1:37.5:11.5,DLin-KC2-DMA,DSPC,cholesterol,PEG-c-DMA,50.0,1.0,37.5,11.5,doi_lookup,high
+717,10.1021/acs.jpcb.5b02891,50:1:37.5:11.5,DLin-KC2-DMA,DOPE,cholesterol,PEG-c-DMA,50.0,1.0,37.5,11.5,doi_lookup,high
+718,10.1021/acs.jpcb.5b02891,80:1:7.5:11.5,DLin-KC2-DMA,DSPC,cholesterol,PEG-c-DMA,80.0,1.0,7.5,11.5,doi_lookup,high
+719,10.1021/acs.jpcb.5b02891,80:1:7.5:11.5,DLin-KC2-DMA,DOPE,cholesterol,PEG-c-DMA,80.0,1.0,7.5,11.5,doi_lookup,high
+736,10.1021/acs.jpcb.5b02891,50:1:37.5:11.5,DLin-KC2-DMA,DSPC,cholesterol,PEG-c-DMA,50.0,1.0,37.5,11.5,doi_lookup,high
+737,10.1021/acs.jpcb.5b02891,80:1:7.5:11.5,DLin-KC2-DMA,DSPC,cholesterol,PEG-c-DMA,80.0,1.0,7.5,11.5,doi_lookup,high
+738,10.1021/acs.jpcb.5b02891,50:1:37.5:11.5,DLin-KC2-DMA,DOPE,cholesterol,PEG-c-DMA,50.0,1.0,37.5,11.5,doi_lookup,high
+739,10.1021/acs.jpcb.5b02891,80:1:7.5:11.5,DLin-KC2-DMA,DOPE,cholesterol,PEG-c-DMA,80.0,1.0,7.5,11.5,doi_lookup,high
+756,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:1.5,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+757,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:3,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,3.0,doi_lookup,high
+758,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:5,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,5.0,doi_lookup,high
+759,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:10,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,10.0,doi_lookup,high
+760,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:15,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,15.0,doi_lookup,high
+761,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:25,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,25.0,doi_lookup,high
+762,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:50,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,50.0,doi_lookup,high
+763,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:1.5,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+764,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:3,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,3.0,doi_lookup,high
+765,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:5,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,5.0,doi_lookup,high
+766,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:10,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,10.0,doi_lookup,high
+767,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:15,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,15.0,doi_lookup,high
+768,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:25,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,25.0,doi_lookup,high
+769,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:50,AX4,DOPE,cholesterol,DMG-PEG2000,50.0,10.0,38.5,50.0,doi_lookup,high
+770,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:5:5,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,5.0,5.0,doi_lookup,high
+771,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:100:5,AX4,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,100.0,5.0,doi_lookup,high
+772,https://doi.org/10.1016/j.ijpharm.2023.123050,20:10:100:5,AX4,DSPC,cholesterol,DMG-PEG2000,20.0,10.0,100.0,5.0,doi_lookup,high
+773,https://doi.org/10.1016/j.ijpharm.2023.123050,35:16:46.5:2.5,AX4,DSPC,cholesterol,DMG-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+774,https://doi.org/10.1016/j.ijpharm.2023.123050,35:16:46.5:5,AX4,DSPC,cholesterol,DMG-PEG2000,35.0,16.0,46.5,5.0,doi_lookup,high
+775,https://doi.org/10.1016/j.ijpharm.2023.123050,35:16:46.5:5,AX4,DSPC,cholesterol,DMG-PEG2000,35.0,16.0,46.5,5.0,doi_lookup,high
+776,https://doi.org/10.1016/j.ijpharm.2023.123050,35:16:46.5:5,AX4,DSPC,cholesterol,DMG-PEG2000,35.0,16.0,46.5,5.0,doi_lookup,high
+777,https://doi.org/10.1016/j.ijpharm.2023.123050,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+778,10.1002/btm2.10580,60:20:19:1,DLin-MC3-DMA,DPPC,cholesterol,DMPE-PEG2000,60.0,20.0,19.0,1.0,doi_lookup,high
+779,10.1002/btm2.10580,45:20:34:1,DLin-MC3-DMA,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+780,10.1002/btm2.10580,45:5:49:1,DLin-MC3-DMA,DPPC,cholesterol,DMPE-PEG2000,45.0,5.0,49.0,1.0,doi_lookup,high
+781,10.1002/btm2.10580,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+782,10.1002/btm2.10580,45:20:34:1,SM-102,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+783,10.1002/btm2.10580,50:10:38.5:1.5,SM-102,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+784,10.1002/btm2.10580,45:20:34:1,ALC-0315,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+785,10.1002/btm2.10580,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,ALC-0159,46.3,9.4,42.7,1.6,doi_lookup,high
+786,10.1002/btm2.10580,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+787,10.1002/btm2.10580,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+788,10.1002/btm2.10580,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+789,10.1002/btm2.10580,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+790,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+791,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,POPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+792,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,BMP,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+793,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,BMP,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+794,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,4ME,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+795,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,DSPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+796,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,CL,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+797,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,SOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+798,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,DEPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+799,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,DPPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+800,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,C16-18:1 PE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+801,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,SOPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+802,10.1039/d1bm01454d,38.5:1.5:30:30,4A3-SC8,POPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+803,https://doi.org/10.1038/s41467-022-33157-4,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+804,https://doi.org/10.1038/s41467-022-33157-4,50:0.25:38.75:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,0.25,38.75,10.5,doi_lookup,high
+805,https://doi.org/10.1038/s41467-022-33157-4,50:0.5:38.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,0.5,38.5,10.5,doi_lookup,high
+806,https://doi.org/10.1038/s41467-022-33157-4,50:1.0:38.0:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,1.0,38.0,10.5,doi_lookup,high
+807,https://doi.org/10.1038/s41467-022-33157-4,50:1.5:38.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.5,doi_lookup,high
+808,https://doi.org/10.1038/s41467-022-33157-4,50:3.0:35.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,3.0,35.5,10.5,doi_lookup,high
+809,https://doi.org/10.1038/s41467-022-33157-4,variable based on N/P:1.5:38.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,,,,,non_numeric,none
+810,https://doi.org/10.1038/s41467-022-33157-4,50:1.5:38.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.5,doi_lookup,high
+811,https://doi.org/10.1038/s41467-022-33157-4,50:1.5:38.5:10.5,DLin-MC3-DMA,DSPC + TMR-PC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.5,doi_lookup,high
+812,https://doi.org/10.1038/s41467-022-33157-4,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+846,https://doi.org/10.1038/s41467-024-50093-7,15:2:25:20,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+847,https://doi.org/10.1038/s41467-024-50093-7,15:2:25:20,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+853,https://doi.org/10.1038/s41467-024-50093-7,15:2:25:20,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+854,https://doi.org/10.1038/s41467-024-50093-7,50:1.5:38.5:10,SM-102,DSPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+856,https://doi.org/10.1038/s41467-024-50093-7,46.3:1.6:42.7:9.4,ALC-0315,DSPC,cholesterol,ALC-0159,,,,,ambiguous_doi,excluded
+858,https://doi.org/10.1038/s41467-024-50093-7,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+860,https://doi.org/10.1038/s41467-024-50093-7,15:2:25:20,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+861,https://doi.org/10.1038/s41467-024-50093-7,15:2:25:20,Custom lipid,DOPE,cholesterol,DMG-PEG2000,,,,,ambiguous_doi,excluded
+862,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,ALC-0159,46.3,9.4,42.7,1.6,doi_lookup,high
+863,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,ALC-0159,46.3,9.4,42.7,1.6,doi_lookup,high
+864,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,DMG-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+865,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,DMG-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+866,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,DSG-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+867,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,C8-Ceramide-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+868,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,C16-Ceramide-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+869,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,DMPE-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+870,https://doi.org/10.1016/j.jconrel.2025.01.071,46.3:9.4:42.7:1.6,ALC-0315,DSPC,cholesterol,DSPE-PEG2000,46.3,9.4,42.7,1.6,doi_lookup,high
+875,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,SM-102,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+876,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,ALC-0315,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+877,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+878,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+879,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+880,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+881,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+882,https://doi.org/10.1101/2023.11.09.565872,45:20:34:1,Custom lipid,DPPC,cholesterol,DMPE-PEG2000,45.0,20.0,34.0,1.0,doi_lookup,high
+885,https://doi.org/10.1021/acs.nanolett.1c01353,35:2.5:46.5:16,C12-200,DOPE,cholesterol,PE-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+911,https://doi.org/10.1101/2024.09.27.614859,50:38.5:10:1.5,SM-102,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+913,https://doi.org/10.1038/s41434-022-00370-1,50:10:35:5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,35.0,5.0,doi_lookup,high
+914,https://doi.org/10.1038/s41434-022-00370-1,50:10:38.5:1.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+915,https://doi.org/10.1038/s41434-022-00370-1,50:10:39.5:0.5,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,39.5,0.5,doi_lookup,high
+922,https://doi.org/10.1073/pnas.2303567120,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+923,https://doi.org/10.1073/pnas.2303567120,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+928,https://doi.org/10.1073/pnas.2303567120,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+929,https://doi.org/10.1073/pnas.2303567120,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+931,https://doi.org/10.1073/pnas.2303567120,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+932,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+933,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+934,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+935,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+936,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+937,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+938,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+939,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+940,https://doi.org/10.1248/cpb.c24-00089,50:10:38.5:1.5,L202,DSPC,cholesterol,DMG-PEG2000,50.0,10.0,38.5,1.5,doi_lookup,high
+946,https://doi.org/10.1038/s41467-020-16248-y,35:16:46.5:2.5,cKK-E12,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+947,https://doi.org/10.1038/s41467-020-16248-y,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+948,https://doi.org/10.1038/s41467-020-16248-y,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+949,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+950,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,A12-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+951,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+952,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+953,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,A18-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+954,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+955,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+956,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+957,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+958,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:16,DLin-MC3-DMA,DOPE,cholesterol,C14-PEG2000,35.0,16.0,37.5,2.5,doi_lookup,high
+959,https://doi.org/10.1038/s41587-019-0247-3,45:2.5:42.5:10,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,45.0,10.0,42.5,2.5,doi_lookup,high
+960,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,25.0,37.5,2.5,doi_lookup,high
+961,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+962,https://doi.org/10.1038/s41587-019-0247-3,50:2.9:31.1:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,31.1,2.9,doi_lookup,high
+963,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+964,https://doi.org/10.1038/s41587-019-0247-3,35:0.5:57.5:7,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,7.0,57.5,0.5,doi_lookup,high
+965,https://doi.org/10.1038/s41587-019-0247-3,65:0.5:27.5:7,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,65.0,7.0,27.5,0.5,doi_lookup,high
+966,https://doi.org/10.1038/s41587-019-0247-3,65:2.5:7.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,65.0,25.0,7.5,2.5,doi_lookup,high
+967,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+968,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+969,https://doi.org/10.1038/s41587-019-0247-3,71.2:1.5:11.3:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,71.2,16.0,11.3,1.5,doi_lookup,high
+970,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+971,https://doi.org/10.1038/s41587-019-0247-3,28.8:1.5:53.7:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,28.8,16.0,53.7,1.5,doi_lookup,high
+972,https://doi.org/10.1038/s41587-019-0247-3,65:2.5:25.5:7,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,65.0,7.0,25.5,2.5,doi_lookup,high
+973,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+974,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:55.5:7,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,7.0,55.5,2.5,doi_lookup,high
+975,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:45.2:3.3,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,3.3,45.2,1.5,doi_lookup,high
+976,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:32.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,32.5,1.5,doi_lookup,high
+977,https://doi.org/10.1038/s41587-019-0247-3,35:0.5:39.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,25.0,39.5,0.5,doi_lookup,high
+978,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:19.8:28.7,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,28.7,19.8,1.5,doi_lookup,high
+979,https://doi.org/10.1038/s41587-019-0247-3,65:0.5:9.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,65.0,25.0,9.5,0.5,doi_lookup,high
+980,https://doi.org/10.1038/s41587-019-0247-3,50:0.1:33.9:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,16.0,33.9,0.1,doi_lookup,high
+981,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:46.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+982,https://doi.org/10.1038/s41587-019-0247-3,50:1.5:23.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,25.0,23.5,1.5,doi_lookup,high
+983,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:46.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+984,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:46.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+985,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:37.5:25,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,25.0,37.5,2.5,doi_lookup,high
+986,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:34.5:28,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,28.0,34.5,2.5,doi_lookup,high
+987,https://doi.org/10.1038/s41587-019-0247-3,35:2.5:42.5:20,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,20.0,42.5,2.5,doi_lookup,high
+988,https://doi.org/10.1038/s41587-019-0247-3,50:2.5:37.5:10,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,50.0,10.0,37.5,2.5,doi_lookup,high
+989,https://doi.org/10.1038/s41587-019-0247-3,45:2.5:36.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,45.0,16.0,36.5,2.5,doi_lookup,high
+990,https://doi.org/10.1038/s41587-019-0247-3,45:2.5:42.5:10,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,45.0,10.0,42.5,2.5,doi_lookup,high
+991,https://doi.org/10.1038/s41587-019-0247-3,35:1.5:47.5:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,47.5,1.5,doi_lookup,high
+992,https://doi.org/10.1038/s41587-019-0247-3,35:2.8:46.2:16,A2-Iso5-2DC18,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.2,2.8,doi_lookup,high
+1005,10.1002/smll.201805097,35:16:46.5:2.5 (ionizable_lipid:cholesterol:DOPE:C14-mPEG2000),Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1006,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1007,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1008,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1009,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1010,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1011,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1012,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1013,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1014,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1015,10.1002/smll.201805097,35:16:46.5:2.5,Custom lipid,DOPE,cholesterol,C14-PEG2000,35.0,16.0,46.5,2.5,doi_lookup,high
+1021,10.1073/pnas.1209367109,40:2:48:10,DLinDMA,DSPC,cholesterol,DMG-PEG2000,40.0,2.0,48.0,10.0,doi_lookup,high
+1030,10.1038/s41551-021-00786-x,60:10:2:28,7C1,DOPE,cholesterol,C14-PEG2000,,,,,ambiguous_doi,excluded
+1032,10.1038/s41551-021-00786-x,60:5:30:5,7C1,DOPE,cholesterol,C14-PEG2000,,,,,ambiguous_doi,excluded
+1034,10.1038/s41551-021-00786-x,60:15:20:5,7C1,DOPE,cholesterol,C18-PEG2000,,,,,ambiguous_doi,excluded
+1088,https://dx.doi.org/10.1021/acs.nanolett.0c01386,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,cholesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+1089,https://dx.doi.org/10.1021/acs.nanolett.0c01386,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,¥â-sitosterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+1090,https://dx.doi.org/10.1021/acs.nanolett.0c01386,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,fucosterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+1091,https://dx.doi.org/10.1021/acs.nanolett.0c01386,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,campesterol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high
+1092,https://dx.doi.org/10.1021/acs.nanolett.0c01386,50:1.5:38.5:10,DLin-MC3-DMA,DSPC,stigmastanol,DMG-PEG2000,50.0,1.5,38.5,10.0,doi_lookup,high

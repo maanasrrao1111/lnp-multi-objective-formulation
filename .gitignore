@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+logs/
+slurm/*.out
+slurm/*.err
+*.tar.gz
+results/backups_phase_c_ratio/

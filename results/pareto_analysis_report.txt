@@ -1,0 +1,31 @@
+PHASE E PARETO ANALYSIS
+=======================
+Complete four-endpoint formulations analyzed: 105
+Studies represented in complete dataset: 14
+
+Four-objective definition:
+  maximize within-study transfection percentile
+  minimize PDI
+  maximize encapsulation efficiency
+  minimize distance outside the 60-150 nm size interval
+
+Four-dimensional Pareto-optimal formulations: 8
+Percentage of complete formulations: 7.6%
+Studies represented among Pareto-optimal formulations: 4
+Pareto-optimal formulations also classified Potent + Developable: 6
+
+Pairwise Pareto counts:
+  transfection versus PDI: 2
+  transfection versus encapsulation efficiency: 1
+  transfection versus size target deviation: 9
+
+Important interpretation:
+Pareto-optimal does not mean universally best. It means that, within this
+complete-case dataset, no other formulation was at least as good across all
+four objectives and strictly better in at least one objective.
+
+Size handling:
+Particle size was treated as a target interval rather than as a quantity to
+maximize or minimize. Sizes within 60-150 nm received zero target deviation;
+sizes outside that interval were penalized by their distance from the nearest
+boundary.

@@ -1,0 +1,36 @@
+EXTERNAL VALIDATION FEATURE-COVERAGE AUDIT — v2
+===============================================
+
+External formulations: 45
+External papers: 4
+Unique external ionizable lipids: 29
+Rows with exactly four ratio components: 45
+Rows with complete numeric four-component ratios: 45
+Rows with ratios summing approximately to 100: 45
+Rows with resolved ionizable-lipid SMILES: 20
+Unique external lipid identities with resolved SMILES: 4
+Unique external lipids still missing SMILES: 25
+Conflicting normalized training lipid names excluded from name matching: 1
+Training/external DOI overlap: []
+
+SMILES match methods:
+smiles_match_method
+unmatched_name        25
+unique_name_lookup    20
+
+Currently matched lipids:
+ionizable_lipid lipid_name_normalized smiles_match_method
+       ALC-0315              alc-0315  unique_name_lookup
+   DLin-MC3-DMA          dlin-mc3-dma  unique_name_lookup
+            MC3          dlin-mc3-dma  unique_name_lookup
+         SM-102                sm-102  unique_name_lookup
+
+Important:
+Generic/conflicting names such as "Custom lipid" are not assigned a
+SMILES by name. They remain unresolved until a structure is recovered
+from the originating paper or supplement.
+
+Saved:
+  results/external_validation_feature_coverage_audit.csv
+  results/external_validation_missing_smiles.csv
+  results/external_validation_conflicting_training_names.csv

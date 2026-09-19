@@ -1,0 +1,71 @@
+PHASE F1 STRICT LEAVE-ONE-PUBLICATION-OUT VALIDATION
+===================================================
+Rows: 298
+Studies: 28
+  held-out study 1/28
+  held-out study 2/28
+  held-out study 3/28
+  held-out study 4/28
+  held-out study 5/28
+  held-out study 6/28
+  held-out study 7/28
+  held-out study 8/28
+  held-out study 9/28
+  held-out study 10/28
+  held-out study 11/28
+  held-out study 12/28
+  held-out study 13/28
+  held-out study 14/28
+  held-out study 15/28
+  held-out study 16/28
+  held-out study 17/28
+  held-out study 18/28
+  held-out study 19/28
+  held-out study 20/28
+  held-out study 21/28
+  held-out study 22/28
+  held-out study 23/28
+  held-out study 24/28
+  held-out study 25/28
+  held-out study 26/28
+  held-out study 27/28
+  held-out study 28/28
+
+PHASE F1 STRICT LEAVE-ONE-PUBLICATION-OUT REPORT
+================================================
+
+Formulations: 298
+Studies held out one at a time: 28
+
+Primary combined random-forest model:
+  Pooled LOPO MAE: 33.345 nm
+  Pooled LOPO RMSE: 42.157 nm
+  Pooled LOPO R2: 0.147
+  Pooled LOPO Spearman rho: 0.517
+  Pooled MAE improvement versus baseline: 27.0%
+  Studies where combined model beat baseline: 21/28
+  Macro mean study MAE: 31.644 nm
+  Median study MAE: 27.690 nm
+
+Study-bootstrap uncertainty:
+  95% CI for macro study-level MAE improvement versus baseline: 13.2% to 43.6%
+
+Best non-baseline model by pooled LOPO MAE:
+  RF: combined
+  Pooled MAE: 33.345 nm
+  Improvement versus baseline: 27.0%
+
+Interpretation:
+  LOPO is stricter than grouped 5-fold validation because every publication
+  is tested separately. Report pooled and study-level performance together.
+  A positive pooled result with wide or crossing-zero study-bootstrap
+  uncertainty indicates partial but heterogeneous cross-publication transfer.
+
+Saved:
+  results/phase_f_particle_size_lopo_predictions.csv
+  results/phase_f_particle_size_lopo_per_study.csv
+  results/phase_f_particle_size_lopo_summary.csv
+  results/phase_f_particle_size_lopo_bootstrap.csv
+  figures/phase_f_particle_size_lopo_observed_vs_predicted.png
+  figures/phase_f_particle_size_lopo_study_improvement.png
+  results/phase_f_particle_size_lopo_report.txt

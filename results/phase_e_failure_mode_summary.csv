@@ -1,0 +1,9 @@
+failure_mode,n_potent_formulations,pct_of_potent_formulations
+EE,29,48.333333333333336
+Size,4,6.666666666666667
+PDI,0,0.0
+PDI + EE,4,6.666666666666667
+Size + EE,1,1.6666666666666667
+Size + PDI,0,0.0
+Size + PDI + EE,1,1.6666666666666667
+None,21,35.0

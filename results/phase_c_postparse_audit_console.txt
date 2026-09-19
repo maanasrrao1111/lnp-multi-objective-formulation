@@ -1,0 +1,37 @@
+PHASE C RATIO POST-PARSE AUDIT
+==============================
+
+Total formulations: 464
+Parser-designated high confidence: 411
+Parser-excluded ambiguous DOI rows: 52
+Parser failures/non-numeric rows: 1
+
+Conservative ratio-model eligible rows (sum 99-101): 382
+High-confidence rows requiring manual review: 29
+
+IMPORTANT:
+The label "high confidence" comes from the DOI lookup in the parser.
+This audit does not independently prove every DOI assignment.
+Rows outside the approximately-100 total are not normalized or silently
+treated as mole percentages; they are retained for paper-level review.
+
+High-confidence review-needed rows by DOI:
+paper_doi
+https://doi.org/10.1016/j.ijpharm.2023.123050    18
+https://doi.org/10.1038/s41587-019-0247-3        10
+https://doi.org/10.1038/s41467-024-45422-9        1
+
+Excluded ambiguous rows by DOI:
+paper_doi
+10.1039/d1bm01454d                            13
+10.1126/sciadv.abc2315                        11
+https://doi.org/10.1038/s41563-020-00886-0     9
+10.1126/sciadv.abf4398                         8
+https://doi.org/10.1038/s41467-024-50093-7     8
+10.1038/s41551-021-00786-x                     3
+
+Saved:
+  results/phase_c_ratio_postparse_audit.csv
+  results/phase_c_ratio_model_ready.csv
+  results/phase_c_ratio_review_needed.csv
+  results/phase_c_ratio_postparse_report.txt

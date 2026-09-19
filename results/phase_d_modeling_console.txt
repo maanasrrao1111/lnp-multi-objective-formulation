@@ -1,0 +1,79 @@
+PHASE D PUBLICATION-GROUPED MODEL SCREENING
+===========================================
+
+Running endpoint: transfection
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: particle_size
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: pdi
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: encapsulation_efficiency
+  completed 7 model comparisons across grouped folds
+
+PHASE D PUBLICATION-GROUPED MODELING REPORT
+===========================================
+
+Validation design:
+  Outer validation: publication-grouped 5-fold CV
+  Inner Ridge tuning: publication-grouped CV within each training fold
+  Random forest hyperparameters fixed before evaluation
+  No random row-level train/test split was used
+
+Decision rule for claiming predictive signal:
+  At least 5.0% lower OOF MAE than the mean baseline AND positive OOF R²
+
+Endpoint results:
+
+  transfection:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.7%
+    OOF R²: -0.048
+    OOF Spearman rho: 0.061
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  particle_size:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 28.0%
+    OOF R²: 0.155
+    OOF Spearman rho: 0.531
+    predictive-signal criterion passed: True
+    model carried forward: RF: combined
+
+  pdi:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.0%
+    OOF R²: -0.129
+    OOF Spearman rho: -0.239
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  encapsulation_efficiency:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 15.8%
+    OOF R²: -0.032
+    OOF Spearman rho: 0.317
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+Interpretation rule:
+  SHAP or feature-importance analysis should be performed only for
+  endpoints whose non-baseline model passes the predictive-signal
+  criterion above. Otherwise, report that the current features did
+  not demonstrate out-of-study predictive value.
+
+Important limitation:
+  Only a small number of ionizable-lipid structures repeat across
+  independent studies. Grouped validation therefore tests substantial
+  chemical and experimental extrapolation, which is intentionally
+  harder and more realistic than a random split.
+
+Saved:
+  results/phase_d_fold_metrics.csv
+  results/phase_d_oof_predictions.csv
+  results/phase_d_model_summary.csv
+  results/phase_d_best_models.csv
+  results/phase_d_modeling_report.txt

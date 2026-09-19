@@ -1,0 +1,1156 @@
+Script started on 2026-08-06 23:07:15-04:00
+
+path = Path("/mnt/data/phase_c_postparse_audit.py")
+path.write_text(script)
+print(f"Created {path.name} ({path.stat().st_size:,} bytes)")
+
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ 
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ path = Path("/mnt/data/phase_c_postparse_audit.py")
+bash: syntax error near unexpected token `('
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ path.write_text(script)
+bash: syntax error near unexpected token `script'
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ print(f"Created {path.name} ({path.stat().st_size:,} bytes)")
+bash: syntax error near unexpected token `f"Created {path.name} ({path.stat().st_size:,} bytes)"'
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ 
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ ls -lh scripts/phase_c_postparse_audit.py
+-rw-r--r-- 1 aisirihuv ladamo2 5.3K Aug  6 23:08 scripts/phase_c_postparse_audit.py
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ python -m py_compile scripts/phase_c_postparse_audit.py
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ python scripts/phase_c_postparse_audit.py | tee results/phase_c_postparse_audit_console.txt
+PHASE C RATIO POST-PARSE AUDIT
+==============================
+
+Total formulations: 464
+Parser-designated high confidence: 411
+Parser-excluded ambiguous DOI rows: 52
+Parser failures/non-numeric rows: 1
+
+Conservative ratio-model eligible rows (sum 99-101): 382
+High-confidence rows requiring manual review: 29
+
+IMPORTANT:
+The label "high confidence" comes from the DOI lookup in the parser.
+This audit does not independently prove every DOI assignment.
+Rows outside the approximately-100 total are not normalized or silently
+treated as mole percentages; they are retained for paper-level review.
+
+High-confidence review-needed rows by DOI:
+paper_doi
+https://doi.org/10.1016/j.ijpharm.2023.123050    18
+https://doi.org/10.1038/s41587-019-0247-3        10
+https://doi.org/10.1038/s41467-024-45422-9        1
+
+Excluded ambiguous rows by DOI:
+paper_doi
+10.1039/d1bm01454d                            13
+10.1126/sciadv.abc2315                        11
+https://doi.org/10.1038/s41563-020-00886-0     9
+10.1126/sciadv.abf4398                         8
+https://doi.org/10.1038/s41467-024-50093-7     8
+10.1038/s41551-021-00786-x                     3
+
+Saved:
+  results/phase_c_ratio_postparse_audit.csv
+  results/phase_c_ratio_model_ready.csv
+  results/phase_c_ratio_review_needed.csv
+  results/phase_c_ratio_postparse_report.txt
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ cd ~/lnp_project
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ source /scratch4/ladamo2/aisirihuv/miniconda3/etc/profile.d/conda.sh
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ conda activate /scratch4/ladamo2/aisirihuv/lnp_env
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ ls -lh scripts/phase_c_build_feature_matrix.py
+-rw-r--r-- 1 aisirihuv ladamo2 11K Aug  6 23:15 scripts/phase_c_build_feature_matrix.py
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ python -m py_compile scripts/phase_c_build_feature_matrix.py
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ python scripts/phase_c_build_feature_matrix.py | tee results/phase_c_feature_mmatrix_console.txt
+PHASE C FEATURE MATRIX REPORT
+=============================
+
+Conservative ratio-model rows: 382
+Studies represented: 32
+Unique non-missing ionizable-lipid SMILES: 150
+Unique SMILES descriptor failures: 1
+Formulations with complete ionizable-lipid descriptors: 314/382 (82.2%)
+
+Endpoint modeling sample sizes with complete descriptors:
+  transfection: 119
+  particle_size: 298
+  pdi: 270
+  encapsulation_efficiency: 267
+  complete four-endpoint subset: 74
+
+Composition features:
+  Raw percentages retained: ionizable, helper, sterol, PEG
+  Non-redundant log-ratio features added using sterol as reference:
+    log_il_to_sterol
+    log_helper_to_sterol
+    log_peg_to_sterol
+
+Modeling cautions:
+  - Keep paper_doi as the grouping variable for cross-validation.
+  - Do not randomly split formulations across train/test folds.
+  - Do not impute missing outcome values.
+  - Compare descriptor-based models with identity-only baselines.
+  - For linear models, do not include all four raw percentages together.
+  - Tail length and branch-point counts are heuristic RDKit-derived features.
+
+Saved:
+  results/phase_c_feature_matrix.csv
+  results/phase_c_descriptor_lookup.csv
+  results/phase_c_descriptor_failures.csv
+  results/phase_c_feature_matrix_report.txt
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ cat results/phase_c_feature_matrix_report.txt
+PHASE C FEATURE MATRIX REPORT
+=============================
+
+Conservative ratio-model rows: 382
+Studies represented: 32
+Unique non-missing ionizable-lipid SMILES: 150
+Unique SMILES descriptor failures: 1
+Formulations with complete ionizable-lipid descriptors: 314/382 (82.2%)
+
+Endpoint modeling sample sizes with complete descriptors:
+  transfection: 119
+  particle_size: 298
+  pdi: 270
+  encapsulation_efficiency: 267
+  complete four-endpoint subset: 74
+
+Composition features:
+  Raw percentages retained: ionizable, helper, sterol, PEG
+  Non-redundant log-ratio features added using sterol as reference:
+    log_il_to_sterol
+    log_helper_to_sterol
+    log_peg_to_sterol
+
+Modeling cautions:
+  - Keep paper_doi as the grouping variable for cross-validation.
+  - Do not randomly split formulations across train/test folds.
+  - Do not impute missing outcome values.
+  - Compare descriptor-based models with identity-only baselines.
+  - For linear models, do not include all four raw percentages together.
+  - Tail length and branch-point counts are heuristic RDKit-derived features.
+
+Saved:
+  results/phase_c_feature_matrix.csv
+  results/phase_c_descriptor_lookup.csv
+  results/phase_c_descriptor_failures.csv
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ python - <<'PY'
+> import pandas as pd
+> import numpy as np
+> 
+> path = "results/phase_c_feature_matrix.csv"
+> df = pd.read_csv(path)
+> 
+> endpoints = {
+>     "transfection": "transfection_pctile",
+>     "particle_size": "size_mean",
+>     "pdi": "pdi_mean",
+>     "encapsulation_efficiency": "ee_mean",
+> }
+> 
+> feature_cols = [
+>     "log_il_to_sterol",
+>     "log_helper_to_sterol",
+>     "log_peg_to_sterol",
+>     "mw",
+>     "logp",
+>     "tpsa",
+>     "num_rotatable_bonds",
+>     "num_hbd",
+>     "num_hba",
+>     "num_ester_bonds",
+>     "num_tertiary_amines",
+>     "tail_length_carbons",
+>     "num_unsaturated_bonds",
+>     "num_branch_points",
+>     "num_rings",
+>     "fraction_csp3",
+>     "heavy_atom_count",
+> ]
+> 
+> print("PHASE D PRE-MODELING AUDIT")
+> print("==========================")
+> print(f"Rows in feature matrix: {len(df)}")
+> print(f"Studies represented: {df['paper_doi'].nunique()}")
+> print(f"Descriptor-complete rows: {df['descriptor_complete'].sum()}")
+> 
+> for label, endpoint in endpoints.items():
+>     sub = df[
+>         df[endpoint].notna()
+>         & df["descriptor_complete"]
+>     ].copy()
+> 
+>     counts = sub.groupby("paper_doi").size().sort_values(ascending=False)
+> 
+>     print(f"\n--- {label.upper()} ---")
+>     print(f"Usable formulations: {len(sub)}")
+>     print(f"Studies represented: {sub['paper_doi'].nunique()}")
+> 
+>     if len(sub):
+>         print(
+>             f"Outcome: min={sub[endpoint].min():.4f}, "
+>             f"median={sub[endpoint].median():.4f}, "
+>             f"max={sub[endpoint].max():.4f}"
+>         )
+>         print(
+>             f"Largest study contribution: {counts.iloc[0]} "
+>             f"({100 * counts.iloc[0] / len(sub):.1f}%)"
+>         )
+>         print("Top five study sizes:")
+>         print(counts.head(5).to_string())
+> 
+> print("\n--- FEATURE VARIATION ---")
+> for col in feature_cols:
+>     if col in df.columns:
+>         n_unique = df.loc[df["descriptor_complete"], col].nunique(dropna=True)
+>         print(f"{col}: {n_unique} unique values")
+> 
+> print("\n--- IONIZABLE-LIPID REPLICATION ---")
+> lipid_studies = (
+>     df[df["descriptor_complete"]]
+>     .groupby("ionizable_lipid_smiles")["paper_doi"]
+>     .nunique()
+> )
+> 
+> print(f"Unique descriptor-ready structures: {len(lipid_studies)}")
+> print(
+>     "Structures appearing in at least two studies: "
+>     f"{(lipid_studies >= 2).sum()}"
+> )
+> print(
+>     "Structures appearing in at least three studies: "
+>     f"{(lipid_studies >= 3).sum()}"
+> )
+> 
+> print("\nAudit complete.")
+> PY
+PHASE D PRE-MODELING AUDIT
+==========================
+Rows in feature matrix: 382
+Studies represented: 32
+Descriptor-complete rows: 314
+
+--- TRANSFECTION ---
+Usable formulations: 119
+Studies represented: 15
+Outcome: min=0.0833, median=0.6000, max=1.0000
+Largest study contribution: 34 (28.6%)
+Top five study sizes:
+paper_doi
+https://doi.org/10.1038/s41587-019-0247-3        34
+https://doi.org/10.1038/s41467-024-50619-z       29
+10.1002/btm2.10580                               12
+https://doi.org/10.1016/j.jconrel.2025.01.071     7
+https://doi.org/10.1016/j.ymthe.2018.03.010       5
+
+--- PARTICLE_SIZE ---
+Usable formulations: 298
+Studies represented: 28
+Outcome: min=19.0000, median=122.5000, max=259.6000
+Largest study contribution: 95 (31.9%)
+Top five study sizes:
+paper_doi
+https://doi.org/10.1038/s41467-024-45422-9    95
+https://doi.org/10.1038/s41587-019-0247-3     34
+https://doi.org/10.1038/s41467-024-50619-z    29
+https://doi.org/10.1016/j.jpha.2024.100996    24
+10.1016/j.jconrel.2019.10.028                 16
+
+--- PDI ---
+Usable formulations: 270
+Studies represented: 21
+Outcome: min=0.0040, median=0.1690, max=0.4100
+Largest study contribution: 95 (35.2%)
+Top five study sizes:
+paper_doi
+https://doi.org/10.1038/s41467-024-45422-9    95
+https://doi.org/10.1038/s41587-019-0247-3     34
+https://doi.org/10.1038/s41467-024-50619-z    29
+https://doi.org/10.1016/j.jpha.2024.100996    24
+10.1016/j.jconrel.2019.10.028                 16
+
+--- ENCAPSULATION_EFFICIENCY ---
+Usable formulations: 267
+Studies represented: 27
+Outcome: min=9.4000, median=80.0000, max=99.0000
+Largest study contribution: 95 (35.6%)
+Top five study sizes:
+paper_doi
+https://doi.org/10.1038/s41467-024-45422-9     95
+https://doi.org/10.1038/s41587-019-0247-3      34
+https://doi.org/10.1016/j.jpha.2024.100996     24
+10.1016/j.jconrel.2019.10.028                  16
+https://doi.org/10.1016/j.ymthe.2018.03.010    11
+
+--- FEATURE VARIATION ---
+log_il_to_sterol: 51 unique values
+log_helper_to_sterol: 56 unique values
+log_peg_to_sterol: 51 unique values
+mw: 128 unique values
+logp: 137 unique values
+tpsa: 38 unique values
+num_rotatable_bonds: 49 unique values
+num_hbd: 6 unique values
+num_hba: 12 unique values
+num_ester_bonds: 6 unique values
+num_tertiary_amines: 5 unique values
+tail_length_carbons: 22 unique values
+num_unsaturated_bonds: 9 unique values
+num_branch_points: 13 unique values
+num_rings: 3 unique values
+fraction_csp3: 75 unique values
+heavy_atom_count: 46 unique values
+
+--- IONIZABLE-LIPID REPLICATION ---
+Unique descriptor-ready structures: 149
+Structures appearing in at least two studies: 7
+Structures appearing in at least three studies: 4
+
+Audit complete.
+]0;aisirihuv@login02:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@login02 lnp_project]$ salloc --time=02:00:00 --mem=16G --cpus-per-task=4
+salloc: Pending job allocation 29583138
+salloc: job 29583138 queued and waiting for resources
+salloc: job 29583138 has been allocated resources
+salloc: Granted job allocation 29583138
+salloc: Nodes c250 are ready for job
+]0;aisirihuv@login02:~/lnp_project[aisirihuv@login02 lnp_project]$ srun --pty bash -l
+]0;aisirihuv@c250:~/lnp_project[aisirihuv@c250 lnp_project]$ hostname
+c250
+]0;aisirihuv@c250:~/lnp_project[aisirihuv@c250 lnp_project]$ cd ~/lnp_project
+]0;aisirihuv@c250:~/lnp_project[aisirihuv@c250 lnp_project]$ source /scratch4/ladamo2/aisirihuv/miniconda3/etc/profile.d/conda.sh
+]0;aisirihuv@c250:~/lnp_project[aisirihuv@c250 lnp_project]$ conda activate /scratch4/ladamo2/aisirihuv/lnp_env
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_d_grouped_modeling.py
+-rw-r--r-- 1 aisirihuv ladamo2 19K Aug  6 23:26 scripts/phase_d_grouped_modeling.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/phase_d_grouped_modeling.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/phase_d_grouped_modeling.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_d_grouped_modeling.py | tee results/phase_d_modeling_consolee.txt
+PHASE D PUBLICATION-GROUPED MODEL SCREENING
+===========================================
+
+Running endpoint: transfection
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: particle_size
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: pdi
+  completed 7 model comparisons across grouped folds
+
+Running endpoint: encapsulation_efficiency
+  completed 7 model comparisons across grouped folds
+
+PHASE D PUBLICATION-GROUPED MODELING REPORT
+===========================================
+
+Validation design:
+  Outer validation: publication-grouped 5-fold CV
+  Inner Ridge tuning: publication-grouped CV within each training fold
+  Random forest hyperparameters fixed before evaluation
+  No random row-level train/test split was used
+
+Decision rule for claiming predictive signal:
+  At least 5.0% lower OOF MAE than the mean baseline AND positive OOF R²
+
+Endpoint results:
+
+  transfection:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.7%
+    OOF R²: -0.048
+    OOF Spearman rho: 0.061
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  particle_size:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 28.0%
+    OOF R²: 0.155
+    OOF Spearman rho: 0.531
+    predictive-signal criterion passed: True
+    model carried forward: RF: combined
+
+  pdi:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.0%
+    OOF R²: -0.129
+    OOF Spearman rho: -0.239
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  encapsulation_efficiency:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 15.8%
+    OOF R²: -0.032
+    OOF Spearman rho: 0.317
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+Interpretation rule:
+  SHAP or feature-importance analysis should be performed only for
+  endpoints whose non-baseline model passes the predictive-signal
+  criterion above. Otherwise, report that the current features did
+  not demonstrate out-of-study predictive value.
+
+Important limitation:
+  Only a small number of ionizable-lipid structures repeat across
+  independent studies. Grouped validation therefore tests substantial
+  chemical and experimental extrapolation, which is intentionally
+  harder and more realistic than a random split.
+
+Saved:
+  results/phase_d_fold_metrics.csv
+  results/phase_d_oof_predictions.csv
+  results/phase_d_model_summary.csv
+  results/phase_d_best_models.csv
+  results/phase_d_modeling_report.txt
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/phase_d_modeling_report.txt
+PHASE D PUBLICATION-GROUPED MODELING REPORT
+===========================================
+
+Validation design:
+  Outer validation: publication-grouped 5-fold CV
+  Inner Ridge tuning: publication-grouped CV within each training fold
+  Random forest hyperparameters fixed before evaluation
+  No random row-level train/test split was used
+
+Decision rule for claiming predictive signal:
+  At least 5.0% lower OOF MAE than the mean baseline AND positive OOF R²
+
+Endpoint results:
+
+  transfection:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.7%
+    OOF R²: -0.048
+    OOF Spearman rho: 0.061
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  particle_size:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 28.0%
+    OOF R²: 0.155
+    OOF Spearman rho: 0.531
+    predictive-signal criterion passed: True
+    model carried forward: RF: combined
+
+  pdi:
+    best non-baseline model: Ridge: composition
+    MAE improvement vs baseline: -0.0%
+    OOF R²: -0.129
+    OOF Spearman rho: -0.239
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+  encapsulation_efficiency:
+    best non-baseline model: RF: combined
+    MAE improvement vs baseline: 15.8%
+    OOF R²: -0.032
+    OOF Spearman rho: 0.317
+    predictive-signal criterion passed: False
+    model carried forward: Mean baseline
+
+Interpretation rule:
+  SHAP or feature-importance analysis should be performed only for
+  endpoints whose non-baseline model passes the predictive-signal
+  criterion above. Otherwise, report that the current features did
+  not demonstrate out-of-study predictive value.
+
+Important limitation:
+  Only a small number of ionizable-lipid structures repeat across
+  independent studies. Grouped validation therefore tests substantial
+  chemical and experimental extrapolation, which is intentionally
+  harder and more realistic than a random split.
+
+Saved:
+  results/phase_d_fold_metrics.csv
+  results/phase_d_oof_predictions.csv
+  results/phase_d_model_summary.csv
+  results/phase_d_best_models.csv
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python - <<'PY'
+> import pandas as pd
+> 
+> df = pd.read_csv("results/phase_d_best_models.csv")
+> 
+> cols = [
+>     "endpoint",
+>     "best_nonbaseline_model_label",
+>     "mae_improvement_vs_baseline_pct",
+>     "best_nonbaseline_r2",
+>     "best_nonbaseline_spearman_rho",
+>     "predictive_signal_passed",
+>     "best_model_label",
+> ]
+> 
+> print(df[cols].to_string(index=False))
+> PY
+                endpoint best_nonbaseline_model_label  mae_improvement_vs_baseline_pct  best_nonbaseline_r2  best_nonbaseline_spearman_rho  predictive_signal_passed best_model_label
+            transfection           Ridge: composition                        -0.677295            -0.047757                       0.061060                     False    Mean baseline
+           particle_size                 RF: combined                        27.997938             0.155149                       0.530717                      True     RF: combined
+                     pdi           Ridge: composition                        -0.048098            -0.129491                      -0.238976                     False    Mean baseline
+encapsulation_efficiency                 RF: combined                        15.759617            -0.031885                       0.316861                     False    Mean baseline
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ scp "$HOME\Downloads\phase_d_particle_size_interpretation.py" aisirihuv@login.rocckfish.jhu.edu:/home/aisirihuv/lnp_project/scripts/
+Warning: Permanently added the ECDSA host key for IP address '162.129.223.62' to the list of known hosts.
+/home/aisirihuv\Downloads\phase_d_particle_size_interpretation.py: No such file or directory
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_d_particle_size_interpretation.py
+-rw-r--r-- 1 aisirihuv ladamo2 16K Aug  6 23:46 scripts/phase_d_particle_size_interpretation.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/phase_d_particle_size_interpretation.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_d_particle_size_interpretation.py | tee results/phase_d_partticle_size_interpretation_console.txt
+
+^CTraceback (most recent call last):
+  File "/home/aisirihuv/lnp_project/scripts/phase_d_particle_size_interpretation.py", line 479, in <module>
+    main()
+  File "/home/aisirihuv/lnp_project/scripts/phase_d_particle_size_interpretation.py", line 324, in main
+    shap_values = explainer.shap_values(X)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/shap/explainers/_tree.py", line 668, in shap_values
+    _cext.dense_tree_shap(
+KeyboardInterrupt
+
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ^C
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ^C
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_d_particle_size_interpretation_fast.py
+-rw-r--r-- 1 aisirihuv ladamo2 18K Aug  6 23:56 scripts/phase_d_particle_size_interpretation_fast.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_d_particle_size_interpretation_fast.py
+-rw-r--r-- 1 aisirihuv ladamo2 18K Aug  6 23:56 scripts/phase_d_particle_size_interpretation_fast.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_d_particle_size_interpretation_fast.py | tee results/phase_dd_particle_size_fast_console.txt
+python scripts/phase_d_particle_size_interpretation_fast.py | tee results/phase_d_particle_size_fast_console.txt
+^CTraceback (most recent call last):
+  File "/home/aisirihuv/lnp_project/scripts/phase_d_particle_size_interpretation_fast.py", line 547, in <module>
+    main(with_shap=args.with_shap)
+  File "/home/aisirihuv/lnp_project/scripts/phase_d_particle_size_interpretation_fast.py", line 325, in main
+    p = model.predict(Xp)
+        ^^^^^^^^^^^^^^^^^
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/ensemble/_forest.py", line 1078, in predict
+    Parallel(n_jobs=n_jobs, verbose=self.verbose, require="sharedmem")(
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/joblib/parallel.py", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/joblib/parallel.py", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File "/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/joblib/parallel.py", line 1800, in _retrieve
+    time.sleep(0.01)
+KeyboardInterrupt
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_d_particle_size_interpretation_fast.py
+-rw-r--r-- 1 aisirihuv ladamo2 18K Aug  6 23:56 scripts/phase_d_particle_size_interpretation_fast.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/phase_d_particle_size_interpretation_fast.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_d_particle_size_interpretation_fast.py | tee results/phase_dd_particle_size_fast_console.txt
+Running publication-grouped particle-size interpretation...
+  rows=298, studies=28, permutations=30
+  fold 1/5
+  fold 2/5
+  fold 3/5
+  fold 4/5
+  fold 5/5
+
+Primary grouped interpretation complete and saved.
+PHASE D2 PARTICLE-SIZE INTERPRETATION REPORT
+============================================
+
+Usable formulations: 298
+Studies represented: 28
+Features: 17
+
+Publication-grouped out-of-fold performance:
+  MAE: 33.258 nm
+  RMSE: 41.955 nm
+  R2: 0.155
+  Spearman rho: 0.531
+
+Top held-out grouped permutation features:
+  1. LogP: held-out MAE increase 0.446 nm; positive in 4/5 folds
+  2. PEG/sterol log ratio: held-out MAE increase 0.328 nm; positive in 2/5 folds
+  3. Molecular weight: held-out MAE increase 0.147 nm; positive in 4/5 folds
+  4. Ester bonds: held-out MAE increase 0.111 nm; positive in 5/5 folds
+  5. Ionizable/sterol log ratio: held-out MAE increase 0.047 nm; positive in 3/5 folds
+  6. Unsaturated bonds: held-out MAE increase 0.036 nm; positive in 4/5 folds
+  7. Longest carbon-chain length: held-out MAE increase 0.029 nm; positive in 4/5 folds
+  8. Rings: held-out MAE increase 0.010 nm; positive in 3/5 folds
+  9. Tertiary amines: held-out MAE increase -0.009 nm; positive in 3/5 folds
+  10. H-bond acceptors: held-out MAE increase -0.010 nm; positive in 2/5 folds
+
+Interpretation:
+  Grouped held-out permutation importance is the primary explanation.
+  A feature is more credible when permutation worsens held-out MAE in
+  several folds, not merely when its pooled mean importance is positive.
+
+Caution:
+  Out-of-fold R2 is modest. These are candidate associations with particle
+  size, not universal or causal design rules. Correlated features may share
+  or redistribute importance.
+
+SHAP status: not requested
+
+Saved primary outputs:
+  results/phase_d_particle_size_fold_metrics.csv
+  results/phase_d_particle_size_grouped_permutation_importance.csv
+  results/phase_d_particle_size_oof_predictions.csv
+  figures/phase_d_particle_size_grouped_permutation_importance.png
+  figures/phase_d_particle_size_observed_vs_predicted.png
+
+SHAP skipped. Re-run with --with-shap only if desired.
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ^C
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_d_particle_size_interpretation_fast.py --with-shap | tee ressults/phase_d_particle_size_fast_with_shap_console.txt
+Running publication-grouped particle-size interpretation...
+  rows=298, studies=28, permutations=30
+  fold 1/5
+  fold 2/5
+  fold 3/5
+  fold 4/5
+  fold 5/5
+
+Primary grouped interpretation complete and saved.
+PHASE D2 PARTICLE-SIZE INTERPRETATION REPORT
+============================================
+
+Usable formulations: 298
+Studies represented: 28
+Features: 17
+
+Publication-grouped out-of-fold performance:
+  MAE: 33.258 nm
+  RMSE: 41.955 nm
+  R2: 0.155
+  Spearman rho: 0.531
+
+Top held-out grouped permutation features:
+  1. LogP: held-out MAE increase 0.446 nm; positive in 4/5 folds
+  2. PEG/sterol log ratio: held-out MAE increase 0.328 nm; positive in 2/5 folds
+  3. Molecular weight: held-out MAE increase 0.147 nm; positive in 4/5 folds
+  4. Ester bonds: held-out MAE increase 0.111 nm; positive in 5/5 folds
+  5. Ionizable/sterol log ratio: held-out MAE increase 0.047 nm; positive in 4/5 folds
+  6. Unsaturated bonds: held-out MAE increase 0.036 nm; positive in 4/5 folds
+  7. Longest carbon-chain length: held-out MAE increase 0.029 nm; positive in 4/5 folds
+  8. Rings: held-out MAE increase 0.010 nm; positive in 3/5 folds
+  9. Tertiary amines: held-out MAE increase -0.009 nm; positive in 3/5 folds
+  10. H-bond acceptors: held-out MAE increase -0.010 nm; positive in 2/5 folds
+
+Interpretation:
+  Grouped held-out permutation importance is the primary explanation.
+  A feature is more credible when permutation worsens held-out MAE in
+  several folds, not merely when its pooled mean importance is positive.
+
+Caution:
+  Out-of-fold R2 is modest. These are candidate associations with particle
+  size, not universal or causal design rules. Correlated features may share
+  or redistribute importance.
+
+SHAP status: not requested
+
+Saved primary outputs:
+  results/phase_d_particle_size_fold_metrics.csv
+  results/phase_d_particle_size_grouped_permutation_importance.csv
+  results/phase_d_particle_size_oof_predictions.csv
+  figures/phase_d_particle_size_grouped_permutation_importance.png
+  figures/phase_d_particle_size_observed_vs_predicted.png
+
+Running approximate SHAP on a capped sample...
+
+Approximate SHAP completed and saved.
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/phase_d_particle_size_interpretation_report.txt
+PHASE D2 PARTICLE-SIZE INTERPRETATION REPORT
+============================================
+
+Usable formulations: 298
+Studies represented: 28
+Features: 17
+
+Publication-grouped out-of-fold performance:
+  MAE: 33.258 nm
+  RMSE: 41.955 nm
+  R2: 0.155
+  Spearman rho: 0.531
+
+Top held-out grouped permutation features:
+  1. LogP: held-out MAE increase 0.446 nm; positive in 4/5 folds
+  2. PEG/sterol log ratio: held-out MAE increase 0.328 nm; positive in 2/5 folds
+  3. Molecular weight: held-out MAE increase 0.147 nm; positive in 4/5 folds
+  4. Ester bonds: held-out MAE increase 0.111 nm; positive in 5/5 folds
+  5. Ionizable/sterol log ratio: held-out MAE increase 0.047 nm; positive in 4/5 folds
+  6. Unsaturated bonds: held-out MAE increase 0.036 nm; positive in 4/5 folds
+  7. Longest carbon-chain length: held-out MAE increase 0.029 nm; positive in 4/5 folds
+  8. Rings: held-out MAE increase 0.010 nm; positive in 3/5 folds
+  9. Tertiary amines: held-out MAE increase -0.009 nm; positive in 3/5 folds
+  10. H-bond acceptors: held-out MAE increase -0.010 nm; positive in 2/5 folds
+
+Interpretation:
+  Grouped held-out permutation importance is the primary explanation.
+  A feature is more credible when permutation worsens held-out MAE in
+  several folds, not merely when its pooled mean importance is positive.
+
+Caution:
+  Out-of-fold R2 is modest. These are candidate associations with particle
+  size, not universal or causal design rules. Correlated features may share
+  or redistribute importance.
+
+SHAP status: completed approximately on 150 rows
+
+Saved primary outputs:
+  results/phase_d_particle_size_fold_metrics.csv
+  results/phase_d_particle_size_grouped_permutation_importance.csv
+  results/phase_d_particle_size_oof_predictions.csv
+  figures/phase_d_particle_size_grouped_permutation_importance.png
+  figures/phase_d_particle_size_observed_vs_predicted.png
+
+Optional SHAP outputs:
+  results/phase_d_particle_size_shap_importance.csv
+  figures/phase_d_particle_size_shap_bar.png
+  figures/phase_d_particle_size_shap_beeswarm.png
+
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python - <<'PY'
+> import pandas as pd
+> 
+> df = pd.read_csv("results/phase_d_particle_size_shap_importance.csv")
+> 
+> print(
+>     df[
+>         [
+>             "display_name",
+>             "mean_abs_shap",
+>             "feature_shap_spearman",
+>         ]
+>     ]
+>     .head(12)
+>     .to_string(index=False)
+> )
+> PY
+               display_name  mean_abs_shap  feature_shap_spearman
+            Rotatable bonds      15.052308              -0.883557
+                       LogP       9.906002              -0.791780
+    Helper/sterol log ratio       3.268540               0.576575
+                Ester bonds       2.699263               0.830064
+                       TPSA       2.650481               0.064630
+              Fraction Csp3       2.634803              -0.747245
+       PEG/sterol log ratio       2.112977               0.219907
+ Ionizable/sterol log ratio       1.830842              -0.470925
+           Molecular weight       1.626766              -0.176590
+       Carbon branch points       1.422165               0.878406
+Longest carbon-chain length       1.291653              -0.095077
+          Unsaturated bonds       1.159057               0.624172
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/phase_f_particle_size_lopo.py
+-rw-r--r-- 1 aisirihuv ladamo2 15K Aug  7 00:14 scripts/phase_f_particle_size_lopo.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/phase_f_particle_size_lopo.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/phase_f_particle_size_lopo.py | tee results/phase_f_particle_size__lopo_console.txt
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/scratch4/ladamo2/aisirihuv/lnp_env/lib/python3.11/site-packages/sklearn/metrics/_regression.py:1295: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+PHASE F1 STRICT LEAVE-ONE-PUBLICATION-OUT VALIDATION
+===================================================
+Rows: 298
+Studies: 28
+  held-out study 1/28
+  held-out study 2/28
+  held-out study 3/28
+  held-out study 4/28
+  held-out study 5/28
+  held-out study 6/28
+  held-out study 7/28
+  held-out study 8/28
+  held-out study 9/28
+  held-out study 10/28
+  held-out study 11/28
+  held-out study 12/28
+  held-out study 13/28
+  held-out study 14/28
+  held-out study 15/28
+  held-out study 16/28
+  held-out study 17/28
+  held-out study 18/28
+  held-out study 19/28
+  held-out study 20/28
+  held-out study 21/28
+  held-out study 22/28
+  held-out study 23/28
+  held-out study 24/28
+  held-out study 25/28
+  held-out study 26/28
+  held-out study 27/28
+  held-out study 28/28
+
+PHASE F1 STRICT LEAVE-ONE-PUBLICATION-OUT REPORT
+================================================
+
+Formulations: 298
+Studies held out one at a time: 28
+
+Primary combined random-forest model:
+  Pooled LOPO MAE: 33.345 nm
+  Pooled LOPO RMSE: 42.157 nm
+  Pooled LOPO R2: 0.147
+  Pooled LOPO Spearman rho: 0.517
+  Pooled MAE improvement versus baseline: 27.0%
+  Studies where combined model beat baseline: 21/28
+  Macro mean study MAE: 31.644 nm
+  Median study MAE: 27.690 nm
+
+Study-bootstrap uncertainty:
+  95% CI for macro study-level MAE improvement versus baseline: 13.2% to 43.6%
+
+Best non-baseline model by pooled LOPO MAE:
+  RF: combined
+  Pooled MAE: 33.345 nm
+  Improvement versus baseline: 27.0%
+
+Interpretation:
+  LOPO is stricter than grouped 5-fold validation because every publication
+  is tested separately. Report pooled and study-level performance together.
+  A positive pooled result with wide or crossing-zero study-bootstrap
+  uncertainty indicates partial but heterogeneous cross-publication transfer.
+
+Saved:
+  results/phase_f_particle_size_lopo_predictions.csv
+  results/phase_f_particle_size_lopo_per_study.csv
+  results/phase_f_particle_size_lopo_summary.csv
+  results/phase_f_particle_size_lopo_bootstrap.csv
+  figures/phase_f_particle_size_lopo_observed_vs_predicted.png
+  figures/phase_f_particle_size_lopo_study_improvement.png
+  results/phase_f_particle_size_lopo_report.txt
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python - <<'PY'
+> import pandas as pd
+> 
+> external = pd.read_csv("data/external_validation_cleaned.csv")
+> train = pd.read_csv("results/phase_c_feature_matrix.csv")
+> 
+> def normalize_doi(value):
+>     value = str(value).strip()
+>     for prefix in [
+>         "https://doi.org/",
+>         "https://dx.doi.org/",
+>         "http://doi.org/",
+>         "http://dx.doi.org/",
+>     ]:
+>         if value.startswith(prefix):
+>             value = value[len(prefix):]
+>     return value.lower()
+> 
+> # MC3 is the abbreviated external-set name for DLin-MC3-DMA.
+> aliases = {
+>     "MC3": "DLin-MC3-DMA",
+> }
+> 
+> external["atlas_lipid_name"] = (
+>     external["ionizable_lipid"]
+>     .replace(aliases)
+> )
+> 
+> # Confirm that external ratios are complete and sum to 100.
+> ratio_parts = (
+>     external["molar_ratio"]
+>     .str.split(":", expand=True)
+>     .apply(pd.to_numeric, errors="coerce")
+> )
+> 
+> external["ratio_sum"] = ratio_parts.sum(axis=1, min_count=4)
+> external["ratio_complete"] = ratio_parts.notna().all(axis=1)
+> external["ratio_sum_near_100"] = external["ratio_sum"].between(99, 101)
+> 
+> # Build name-to-SMILES lookup from the conservative Atlas feature matrix.
+> lookup = (
+>     train[
+>         ["ionizable_lipid", "ionizable_lipid_smiles"]
+>     ]
+>     .dropna()
+>     .drop_duplicates()
+> )
+> 
+> external_audit = external.merge(
+>     lookup,
+>     left_on="atlas_lipid_name",
+>     right_on="ionizable_lipid",
+>     how="left",
+>     suffixes=("_external", "_atlas"),
+> )
+> 
+> train_dois = {
+>     normalize_doi(x)
+>     for x in train["paper_doi"].dropna()
+> }
+> 
+> external_dois = {
+>     normalize_doi(x)
+>     for x in external["doi"].dropna()
+> }
+> 
+> overlap = sorted(train_dois.intersection(external_dois))
+> 
+> missing = (
+>     external_audit[
+>         external_audit["ionizable_lipid_smiles"].isna()
+>     ][
+>         [
+>             "paper",
+>             "doi",
+>             "ionizable_lipid_external",
+>             "molar_ratio",
+>             "size_nm",
+>         ]
+>     ]
+>     .drop_duplicates()
+>     .sort_values(
+>         ["paper", "ionizable_lipid_external"]
+>     )
+> )
+> 
+> missing.to_csv(
+>     "results/external_validation_missing_smiles.csv",
+>     index=False,
+> )
+> 
+> external_audit.to_csv(
+>     "results/external_validation_feature_coverage_audit.csv",
+>     index=False,
+> )
+> 
+> print("EXTERNAL VALIDATION FEATURE-COVERAGE AUDIT")
+> print("==========================================")
+> print(f"External formulations: {len(external)}")
+> print(f"External papers: {external['doi'].nunique()}")
+> print(
+>     "Unique external ionizable lipids: "
+>     f"{external['ionizable_lipid'].nunique()}"
+> )
+> print(
+>     "Rows with complete four-component ratios: "
+>     f"{external['ratio_complete'].sum()}"
+> )
+> print(
+>     "Rows with ratios summing approximately to 100: "
+>     f"{external['ratio_sum_near_100'].sum()}"
+> )
+> print(
+>     "Rows currently matched to an ionizable-lipid SMILES: "
+>     f"{external_audit['ionizable_lipid_smiles'].notna().sum()}"
+> )
+> print(
+>     "Unique external lipid identities currently matched: "
+>     f"{external_audit.loc[
+>         external_audit['ionizable_lipid_smiles'].notna(),
+>         'ionizable_lipid_external'
+>     ].nunique()}"
+> )
+> print(
+>     "Unique external lipids still missing SMILES: "
+>     f"{missing['ionizable_lipid_external'].nunique()}"
+> )
+> print(f"Training/external DOI overlap: {overlap}")
+> 
+> print("\nCurrently matched lipids:")
+> print(
+>     external_audit.loc[
+>         external_audit["ionizable_lipid_smiles"].notna(),
+>         [
+>             "ionizable_lipid_external",
+>             "atlas_lipid_name",
+>         ],
+>     ]
+>     .drop_duplicates()
+>     .to_string(index=False)
+> )
+> 
+> print("\nSaved:")
+> print(
+>     "  results/"
+>     "external_validation_feature_coverage_audit.csv"
+> )
+> print(
+>     "  results/"
+>     "external_validation_missing_smiles.csv"
+> )
+> PY
+  File "<stdin>", line 118
+    f"{external_audit.loc[
+    ^
+SyntaxError: unterminated string literal (detected at line 118)
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cd ~/lnp_project
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/external_validation_feature_coverage_audit.py
+-rw-r--r-- 1 aisirihuv ladamo2 7.9K Aug  7 00:23 scripts/external_validation_feature_coverage_audit.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/external_validation_feature_coverage_audit.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/external_validation_feature_coverage_audit.py | tee results/externnal_validation_feature_coverage_console.txt
+Traceback (most recent call last):
+  File "/home/aisirihuv/lnp_project/scripts/external_validation_feature_coverage_audit.py", line 285, in <module>
+    main()
+  File "/home/aisirihuv/lnp_project/scripts/external_validation_feature_coverage_audit.py", line 174, in main
+    raise ValueError(
+ValueError: Conflicting SMILES assignments were found for these training lipid names: Custom lipid
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/external_validation_feature_coverage_report.txt
+cat: results/external_validation_feature_coverage_report.txt: No such file or directory
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/external_validation_feature_coverage_audit.py | tee results/externnal_validation_feature_coverage_console.txt
+Traceback (most recent call last):
+  File "/home/aisirihuv/lnp_project/scripts/external_validation_feature_coverage_audit.py", line 285, in <module>
+    main()
+  File "/home/aisirihuv/lnp_project/scripts/external_validation_feature_coverage_audit.py", line 174, in main
+    raise ValueError(
+ValueError: Conflicting SMILES assignments were found for these training lipid names: Custom lipid
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/external_validation_feature_coverage_report.txt
+cat: results/external_validation_feature_coverage_report.txt: No such file or directory
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/external_validation_feature_coverage_audit_v2.py
+-rw-r--r-- 1 aisirihuv ladamo2 12K Aug  7 00:28 scripts/external_validation_feature_coverage_audit_v2.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/external_validation_feature_coverage_audit_v2.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/external_validation_feature_coverage_audit_v2.py | tee results/extternal_validation_feature_coverage_v2_console.txt
+EXTERNAL VALIDATION FEATURE-COVERAGE AUDIT — v2
+===============================================
+
+External formulations: 45
+External papers: 4
+Unique external ionizable lipids: 29
+Rows with exactly four ratio components: 45
+Rows with complete numeric four-component ratios: 45
+Rows with ratios summing approximately to 100: 45
+Rows with resolved ionizable-lipid SMILES: 20
+Unique external lipid identities with resolved SMILES: 4
+Unique external lipids still missing SMILES: 25
+Conflicting normalized training lipid names excluded from name matching: 1
+Training/external DOI overlap: []
+
+SMILES match methods:
+smiles_match_method
+unmatched_name        25
+unique_name_lookup    20
+
+Currently matched lipids:
+ionizable_lipid lipid_name_normalized smiles_match_method
+       ALC-0315              alc-0315  unique_name_lookup
+   DLin-MC3-DMA          dlin-mc3-dma  unique_name_lookup
+            MC3          dlin-mc3-dma  unique_name_lookup
+         SM-102                sm-102  unique_name_lookup
+
+Important:
+Generic/conflicting names such as "Custom lipid" are not assigned a
+SMILES by name. They remain unresolved until a structure is recovered
+from the originating paper or supplement.
+
+Saved:
+  results/external_validation_feature_coverage_audit.csv
+  results/external_validation_missing_smiles.csv
+  results/external_validation_conflicting_training_names.csv
+  results/external_validation_feature_coverage_report.txt
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/external_validation_feature_coverage_report.txt
+EXTERNAL VALIDATION FEATURE-COVERAGE AUDIT — v2
+===============================================
+
+External formulations: 45
+External papers: 4
+Unique external ionizable lipids: 29
+Rows with exactly four ratio components: 45
+Rows with complete numeric four-component ratios: 45
+Rows with ratios summing approximately to 100: 45
+Rows with resolved ionizable-lipid SMILES: 20
+Unique external lipid identities with resolved SMILES: 4
+Unique external lipids still missing SMILES: 25
+Conflicting normalized training lipid names excluded from name matching: 1
+Training/external DOI overlap: []
+
+SMILES match methods:
+smiles_match_method
+unmatched_name        25
+unique_name_lookup    20
+
+Currently matched lipids:
+ionizable_lipid lipid_name_normalized smiles_match_method
+       ALC-0315              alc-0315  unique_name_lookup
+   DLin-MC3-DMA          dlin-mc3-dma  unique_name_lookup
+            MC3          dlin-mc3-dma  unique_name_lookup
+         SM-102                sm-102  unique_name_lookup
+
+Important:
+Generic/conflicting names such as "Custom lipid" are not assigned a
+SMILES by name. They remain unresolved until a structure is recovered
+from the originating paper or supplement.
+
+Saved:
+  results/external_validation_feature_coverage_audit.csv
+  results/external_validation_missing_smiles.csv
+  results/external_validation_conflicting_training_names.csv
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ ls -lh scripts/external_validation_inventory.py
+-rw-r--r-- 1 aisirihuv ladamo2 5.6K Aug  7 00:32 scripts/external_validation_inventory.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python -m py_compile scripts/external_validation_inventory.py
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ python scripts/external_validation_inventory.py | tee results/external_validationn_inventory_console.txt
+EXTERNAL VALIDATION INVENTORY
+=============================
+
+Total formulations: 45
+Total papers: 4
+Unique raw lipid labels: 29
+Rows with resolved SMILES: 20
+Unique resolved chemical structures: 3
+
+Available component/order columns in external file:
+  helper_lipid, peg_lipid
+
+Per-paper inventory:
+                 paper                        doi  n_formulations  n_unique_raw_lipid_names  n_rows_with_resolved_smiles  n_unique_resolved_structures  n_unique_ratio_strings                                                                                                                                                 raw_lipid_names                     ratio_examples
+Padilla_2025_NatCommun 10.1038/s41467-024-55137-6              16                        16                            0                             0                       1 C10-494 | C12-494 | C14-494 | C8-494 | E10i-494 | E10s-494 | E10t-494 | E4i-494 | E4s-494 | E4t-494 | E6i-494 | E6s-494 | E6t-494 | E8i-494 | E8s-494 | E8t-494                     35:16:46.5:2.5
+  Patel_2020_NatCommun 10.1038/s41467-020-14527-2              14                         1                           14                             1                       1                                                                                                                                                    DLin-MC3-DMA                     50:10:38.5:1.5
+   Wang_2024_NatCommun 10.1038/s41467-024-55072-6              11                        11                            2                             2                       1                                                                            LQ085 | LQ086 | LQ087 | LQ089 | LQ090 | LQ091 | LQ092 | LQ093 | LQ094 | MC3 | SM-102                     50:10:38.5:1.5
+   Schober_2024_SciRep 10.1038/s41598-024-52685-1               4                         2                            4                             2                       2                                                                                                                                         ALC-0315 | DLin-MC3-DMA 46.3:9.4:42.7:1.6 | 50:10:38.5:1.5
+
+Important:
+  MC3 and DLin-MC3-DMA may be separate raw labels but the same normalized
+  chemical structure. Validation breadth should be counted by unique
+  structures, not only by raw lipid names.
+
+Saved:
+  results/external_validation_inventory.csv
+  results/external_validation_inventory_report.txt
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ cat results/external_validation_inventory_report.txt
+EXTERNAL VALIDATION INVENTORY
+=============================
+
+Total formulations: 45
+Total papers: 4
+Unique raw lipid labels: 29
+Rows with resolved SMILES: 20
+Unique resolved chemical structures: 3
+
+Available component/order columns in external file:
+  helper_lipid, peg_lipid
+
+Per-paper inventory:
+                 paper                        doi  n_formulations  n_unique_raw_lipid_names  n_rows_with_resolved_smiles  n_unique_resolved_structures  n_unique_ratio_strings                                                                                                                                                 raw_lipid_names                     ratio_examples
+Padilla_2025_NatCommun 10.1038/s41467-024-55137-6              16                        16                            0                             0                       1 C10-494 | C12-494 | C14-494 | C8-494 | E10i-494 | E10s-494 | E10t-494 | E4i-494 | E4s-494 | E4t-494 | E6i-494 | E6s-494 | E6t-494 | E8i-494 | E8s-494 | E8t-494                     35:16:46.5:2.5
+  Patel_2020_NatCommun 10.1038/s41467-020-14527-2              14                         1                           14                             1                       1                                                                                                                                                    DLin-MC3-DMA                     50:10:38.5:1.5
+   Wang_2024_NatCommun 10.1038/s41467-024-55072-6              11                        11                            2                             2                       1                                                                            LQ085 | LQ086 | LQ087 | LQ089 | LQ090 | LQ091 | LQ092 | LQ093 | LQ094 | MC3 | SM-102                     50:10:38.5:1.5
+   Schober_2024_SciRep 10.1038/s41598-024-52685-1               4                         2                            4                             2                       2                                                                                                                                         ALC-0315 | DLin-MC3-DMA 46.3:9.4:42.7:1.6 | 50:10:38.5:1.5
+
+Important:
+  MC3 and DLin-MC3-DMA may be separate raw labels but the same normalized
+  chemical structure. Validation breadth should be counted by unique
+  structures, not only by raw lipid names.
+
+Saved:
+  results/external_validation_inventory.csv
+  results/external_validation_inventory_report.txt
+]0;aisirihuv@c250:~/lnp_project(/scratch4/ladamo2/aisirihuv/lnp_env) [aisirihuv@c250 lnp_project]$ logout

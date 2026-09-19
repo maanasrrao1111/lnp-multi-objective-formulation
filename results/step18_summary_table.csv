@@ -1,0 +1,5 @@
+category,n,rings_median,tert_amines_median,ester_bonds_median
+Potent + Developable,19,0.0,1.0,2.0
+Potent only,39,2.0,2.0,1.0
+Developable only,18,0.0,1.0,1.0
+Neither,17,2.0,2.0,1.0

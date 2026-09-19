@@ -1,0 +1,37 @@
+PHASE E REFINEMENT ANALYSIS
+===========================
+
+Complete four-endpoint formulations: 105
+Studies represented: 14
+
+Failure-mode decomposition among potent formulations:
+  Potent formulations: 60
+  Failing at least one physicochemical criterion: 39 (65.0%)
+  Fail encapsulation-efficiency criterion: 35
+  Fail particle-size criterion: 6
+  Fail PDI criterion: 5
+  Fail encapsulation efficiency only: 29
+
+After excluding the largest contributing study (https://doi.org/10.1038/s41587-019-0247-3):
+  Potent formulations: 38
+  Failing at least one criterion: 17 (44.7%)
+  Fail encapsulation-efficiency criterion: 13
+
+Size-interval sensitivity of the pooled failure percentage:
+  Minimum across tested intervals: 58.3%
+  Maximum across tested intervals: 65.0%
+
+Pareto refinement:
+  Primary four-objective distance-penalty frontier (60-150 nm): 8 candidates
+  Candidate IDs: 116, 117, 122, 435, 446, 509, 513, 1089
+  Primary hard-constrained 60-150 nm three-objective frontier: 7 candidates
+  Candidate IDs: 116, 117, 122, 435, 509, 513, 1089
+  Candidates selected in at least 4 of 6 size-handling scenarios: 7
+  Candidate IDs: 117, 446, 513, 1089, 122, 116, 435
+
+Interpretation:
+  The pooled potency-developability gap is not driven by the exact particle-size interval;
+  the failure percentage remained within the range reported above. Encapsulation efficiency
+  is the dominant failed criterion. The exact Pareto candidate count is more sensitive to
+  how particle size is encoded, so candidate-set sensitivity should accompany the primary
+  Pareto result rather than presenting one frontier as universally definitive.

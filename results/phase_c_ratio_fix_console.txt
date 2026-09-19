@@ -1,0 +1,29 @@
+Loading data/atlas_cleaned.csv ...
+  464 rows loaded
+
+Parsing results:
+parse_method
+doi_lookup       411
+ambiguous_doi     52
+non_numeric        1
+
+Confidence breakdown:
+parse_confidence
+high        411
+excluded     52
+none          1
+
+Usable (high confidence): 411/464 (88.6%)
+Excluded (ambiguous DOIs): 52
+Failed (missing/non-numeric): 1
+
+--- Spot checks ---
+  Fenton 2018 (IL:HL:ST:PEG = 35:16:46.5:2.5): PASS
+  Sabnis 2018 (IL:HL:ST:PEG = 50:10:38.5:1.5): PASS
+  aba1028 (IL:ST:HL:PEG = 35:46.5:16:2.5): PASS
+  Miao 2019 (IL:PEG:ST:HL = 35:2.5:37.5:16): PASS
+
+All spot checks passed.
+
+Saved -> results/atlas_ratios_parsed.csv
+Saved audit -> results/ratio_parsing_audit.csv

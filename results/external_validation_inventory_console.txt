@@ -1,0 +1,27 @@
+EXTERNAL VALIDATION INVENTORY
+=============================
+
+Total formulations: 45
+Total papers: 4
+Unique raw lipid labels: 29
+Rows with resolved SMILES: 20
+Unique resolved chemical structures: 3
+
+Available component/order columns in external file:
+  helper_lipid, peg_lipid
+
+Per-paper inventory:
+                 paper                        doi  n_formulations  n_unique_raw_lipid_names  n_rows_with_resolved_smiles  n_unique_resolved_structures  n_unique_ratio_strings                                                                                                                                                 raw_lipid_names                     ratio_examples
+Padilla_2025_NatCommun 10.1038/s41467-024-55137-6              16                        16                            0                             0                       1 C10-494 | C12-494 | C14-494 | C8-494 | E10i-494 | E10s-494 | E10t-494 | E4i-494 | E4s-494 | E4t-494 | E6i-494 | E6s-494 | E6t-494 | E8i-494 | E8s-494 | E8t-494                     35:16:46.5:2.5
+  Patel_2020_NatCommun 10.1038/s41467-020-14527-2              14                         1                           14                             1                       1                                                                                                                                                    DLin-MC3-DMA                     50:10:38.5:1.5
+   Wang_2024_NatCommun 10.1038/s41467-024-55072-6              11                        11                            2                             2                       1                                                                            LQ085 | LQ086 | LQ087 | LQ089 | LQ090 | LQ091 | LQ092 | LQ093 | LQ094 | MC3 | SM-102                     50:10:38.5:1.5
+   Schober_2024_SciRep 10.1038/s41598-024-52685-1               4                         2                            4                             2                       2                                                                                                                                         ALC-0315 | DLin-MC3-DMA 46.3:9.4:42.7:1.6 | 50:10:38.5:1.5
+
+Important:
+  MC3 and DLin-MC3-DMA may be separate raw labels but the same normalized
+  chemical structure. Validation breadth should be counted by unique
+  structures, not only by raw lipid names.
+
+Saved:
+  results/external_validation_inventory.csv
+  results/external_validation_inventory_report.txt

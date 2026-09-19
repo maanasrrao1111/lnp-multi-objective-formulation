@@ -1,0 +1,23 @@
+PHASE E CORE ENDPOINT ANALYSIS
+================================
+Atlas formulations loaded: 464
+Complete four-endpoint formulations: 105
+Studies represented: 14
+Endpoint range flags: 0
+
+Primary thresholds:
+  transfection percentile > 0.50
+  size 60-150 nm
+  PDI < 0.30
+  encapsulation efficiency > 80%
+
+Category counts:
+            category  n  pct_of_complete_cases
+Potent + Developable 21              20.000000
+         Potent only 39              37.142857
+    Developable only 19              18.095238
+             Neither 26              24.761905
+
+Potent formulations: 60
+Potent formulations failing at least one physicochemical criterion: 39
+Failure percentage among potent formulations: 65.0%

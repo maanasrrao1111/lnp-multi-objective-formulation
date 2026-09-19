@@ -1,0 +1,36 @@
+PHASE C FEATURE MATRIX REPORT
+=============================
+
+Conservative ratio-model rows: 382
+Studies represented: 32
+Unique non-missing ionizable-lipid SMILES: 150
+Unique SMILES descriptor failures: 1
+Formulations with complete ionizable-lipid descriptors: 314/382 (82.2%)
+
+Endpoint modeling sample sizes with complete descriptors:
+  transfection: 119
+  particle_size: 298
+  pdi: 270
+  encapsulation_efficiency: 267
+  complete four-endpoint subset: 74
+
+Composition features:
+  Raw percentages retained: ionizable, helper, sterol, PEG
+  Non-redundant log-ratio features added using sterol as reference:
+    log_il_to_sterol
+    log_helper_to_sterol
+    log_peg_to_sterol
+
+Modeling cautions:
+  - Keep paper_doi as the grouping variable for cross-validation.
+  - Do not randomly split formulations across train/test folds.
+  - Do not impute missing outcome values.
+  - Compare descriptor-based models with identity-only baselines.
+  - For linear models, do not include all four raw percentages together.
+  - Tail length and branch-point counts are heuristic RDKit-derived features.
+
+Saved:
+  results/phase_c_feature_matrix.csv
+  results/phase_c_descriptor_lookup.csv
+  results/phase_c_descriptor_failures.csv
+  results/phase_c_feature_matrix_report.txt
